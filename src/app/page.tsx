@@ -1,101 +1,179 @@
-import Image from "next/image";
+import Link from "next/link";
 
-export default function Home() {
+const testimonials = [
+  {
+    quote:
+      "Michael truly is the best! Planned an amazing 20 day trip to Australia and New Zealand... A truly seamless perfect family holiday",
+    author: "Audrey Mothupi & Family",
+  },
+  {
+    quote:
+      "It was the trip of a lifetime! Sydney, Blue Mountains, Port Douglas/Great Barrier Reef, Uluru, and Melbourne all in 10 days",
+    author: "Lisa Mansour & Family",
+  },
+  {
+    quote:
+      "Each and every accommodation was off the hook fabulous... I highly recommend Michael as a travel designer",
+    author: "Mindy Ross, Lifestyle Traveller",
+  },
+];
+
+const categories = [
+  {
+    title: "Honeymoon Australia",
+    description: "Romantic escapes for couples",
+    href: "/itineraries/honeymoon",
+    icon: "fa-heart",
+  },
+  {
+    title: "Lifestyle Holidays",
+    description: "Curated premium experiences",
+    href: "/itineraries/lifestyle",
+    icon: "fa-sun",
+  },
+  {
+    title: "Family Holidays",
+    description: "Adventures for all ages",
+    href: "/itineraries/family",
+    icon: "fa-users",
+  },
+];
+
+const steps = [
+  { number: "1", title: "View Itineraries", description: "Browse our curated collection of Australia travel itineraries across all holiday types.", icon: "fa-map" },
+  { number: "2", title: "Receive Your Quote", description: "Get a personalised quote tailored to your travel dates, group size, and preferences.", icon: "fa-file-invoice" },
+  { number: "3", title: "Communicate with Michael", description: "Work directly with Michael to refine every detail of your Australian adventure.", icon: "fa-comments" },
+];
+
+export default function HomePage() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      {/* Hero Section — dark overlay on warm background */}
+      <section className="relative bg-dark text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
+        {/* Placeholder for video/hero image background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/80 via-orange-900/60 to-stone-800/80" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            Australia Travel Planning —<br />
+            Get Your Trip of a Lifetime
+          </h1>
+          <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-10">
+            Authentic, personalised journeys planned with a local expert
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/itineraries"
+              className="bg-terra text-white px-8 py-3 rounded text-lg font-semibold hover:bg-terra-dark transition-colors"
+            >
+              View Itineraries
+            </Link>
+            <Link
+              href="/travel-planning"
+              className="border-2 border-white text-white px-8 py-3 rounded text-lg font-semibold hover:bg-white hover:text-dark transition-colors"
+            >
+              Plan My Trip
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      {/* 3-Column Category Cards — photographic style with dark overlay */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-dark mb-4">
+            Discover Your Perfect Australian Holiday
+          </h2>
+          <p className="text-center text-dark/50 mb-12 max-w-2xl mx-auto">
+            Whether it&apos;s romance, relaxation, or family fun — we craft the ideal itinerary for you.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {categories.map((cat) => (
+              <Link
+                key={cat.href}
+                href={cat.href}
+                className="relative rounded-lg overflow-hidden group h-64 flex items-end"
+              >
+                {/* Dark gradient overlay simulating photo card */}
+                <div className="absolute inset-0 bg-gradient-to-br from-stone-700 via-stone-600 to-amber-900" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="relative p-6 text-white w-full">
+                  <i className={`fa-solid ${cat.icon} text-2xl mb-3 text-sand`} />
+                  <h3 className="text-xl font-bold mb-1 group-hover:text-sand transition-colors">
+                    {cat.title}
+                  </h3>
+                  <p className="text-white/70 text-sm">{cat.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works — sandy beige CTA panel */}
+      <section className="py-16 bg-sand">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-dark mb-12">
+            How It Works
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {steps.map((step) => (
+              <div key={step.number} className="text-center">
+                <div className="w-16 h-16 bg-terra text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i className={`fa-solid ${step.icon} text-xl`} />
+                </div>
+                <h3 className="text-lg font-bold text-dark mb-2">{step.title}</h3>
+                <p className="text-dark/60 text-sm">{step.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-16 bg-warm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-dark mb-12">
+            What Our Guests Say
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {testimonials.map((t, i) => (
+              <div key={i} className="bg-white rounded-lg p-8 shadow-sm">
+                <i className="fa-solid fa-quote-left text-2xl text-sand mb-4 block" />
+                <p className="text-dark/70 italic mb-6 text-sm leading-relaxed">{t.quote}</p>
+                <p className="font-semibold text-terra text-sm">— {t.author}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Sister Sites */}
+      <section className="py-12 bg-dark text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-2xl font-bold mb-6">Explore Our Sister Sites</h2>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <a
+              href="https://guestnewzealand.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 px-8 py-4 rounded-lg hover:bg-white/20 transition-colors"
+            >
+              <span className="font-bold text-lg">Guest New Zealand</span>
+              <p className="text-white/60 text-sm mt-1">New Zealand travel planning</p>
+            </a>
+            <a
+              href="https://virtualjourneys.co.nz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 px-8 py-4 rounded-lg hover:bg-white/20 transition-colors"
+            >
+              <span className="font-bold text-lg">Virtual Journeys NZ</span>
+              <p className="text-white/60 text-sm mt-1">YouTube travel channel</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

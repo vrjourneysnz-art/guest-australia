@@ -9,8 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        terra: "#AC521C",
+        "terra-dark": "#8B4217",
+        sand: "#C6B29A",
+        warm: "#F5F2EE",
+        dark: "#343434",
+        border: "#ABB0B2",
+      },
+      fontFamily: {
+        sans: ["Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif"],
       },
     },
   },

@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Guest Australia — guestaustralia.com
 
-## Getting Started
+Professional Australia travel planning and itinerary service built with Next.js 14, Tailwind CSS, and TypeScript. Replaces the previous WordPress site.
 
-First, run the development server:
+## Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+- **Forms:** React Hook Form
+- **Deployment:** Railway
+
+## Local Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Start dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Site Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+/                           Home page
+/travel-planning            Travel planning services + contact form
+/itineraries                Itineraries index
+/itineraries/lifestyle      Lifestyle holidays (4 itineraries)
+/itineraries/family         Family holidays (4 itineraries)
+/itineraries/honeymoon      Honeymoon packages (4 itineraries)
+/itineraries/australia-nz   Australia & NZ combined (4 itineraries)
+/travel-information         Travel info index
+/travel-information/travel-tips      Travel tips
+/travel-information/places-australia Australian destinations
+/blog                       Blog index
+/blog/[slug]                Individual blog posts (3 posts)
+```
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+No environment variables are required for the base site. Railway injects `PORT` automatically.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Future additions:
+- `SMTP_HOST`, `SMTP_USER`, `SMTP_PASS` — for contact form email integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Railway Deployment
 
-## Deploy on Vercel
+1. Push this repo to GitHub
+2. Create a new project in Railway and connect the GitHub repo
+3. Railway auto-detects Next.js via Nixpacks — no additional config needed
+4. The build command is `npm run build` and start command is `npm start`
+5. Railway injects `PORT` automatically
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## GoDaddy DNS Configuration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Point `guestaustralia.com` to Railway:
+
+1. In Railway project settings, go to **Settings → Domains**
+2. Add custom domain: `guestaustralia.com` and `www.guestaustralia.com`
+3. Railway will provide a CNAME target (e.g., `your-project.up.railway.app`)
+4. In GoDaddy DNS management:
+   - **A Record:** `@` → Railway's IP (if provided)
+   - **CNAME:** `www` → `your-project.up.railway.app`
+5. Wait for DNS propagation (up to 48 hours)
+
+## Notes
+
+- Contact form currently logs to console — email integration to be added
+- Blog post content is placeholder — replace in `src/data/blog.ts`
+- Itinerary content uses generated placeholder text — replace in `src/data/itineraries.ts`
+- Images use placeholder styling — replace with real images when available
