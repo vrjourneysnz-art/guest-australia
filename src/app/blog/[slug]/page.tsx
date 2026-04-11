@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getBlogPost, blogPosts } from "@/data/blog";
+import PageHeader from "@/components/PageHeader";
 
 interface Props {
   params: { slug: string };
@@ -26,16 +27,13 @@ export default function BlogPostPage({ params }: Props) {
 
   return (
     <>
-      <section className="relative bg-dark text-white py-16">
-        <div className="absolute inset-0 bg-gradient-to-br from-stone-800/90 via-amber-900/70 to-stone-700/80" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Link href="/blog" className="text-sand text-sm hover:underline mb-4 inline-block">
-            <i className="fa-solid fa-arrow-left text-xs mr-1" /> Back to Blog
-          </Link>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">{post.title}</h1>
-          <p className="text-white/50">{post.date}</p>
-        </div>
-      </section>
+      <PageHeader>
+        <Link href="/blog" className="text-sand text-sm hover:underline mb-4 inline-block">
+          <i className="fa-solid fa-arrow-left text-xs mr-1" /> Back to Blog
+        </Link>
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">{post.title}</h1>
+        <p className="text-white/50">{post.date}</p>
+      </PageHeader>
 
       <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

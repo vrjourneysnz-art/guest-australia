@@ -35,12 +35,12 @@ export default function Footer() {
             <h4 className="font-bold mb-3 text-sand text-sm uppercase tracking-wider">Sister Sites</h4>
             <ul className="space-y-2 text-sm text-white/70">
               <li>
-                <a href="https://guestnewzealand.com" target="_blank" rel="noopener noreferrer" className="hover:text-sand transition-colors">
+                <a href="https://guestnewzealand.com" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 rounded text-white text-xs font-semibold hover:opacity-90 transition-opacity" style={{ backgroundColor: "#789653" }}>
                   Guest New Zealand
                 </a>
               </li>
               <li>
-                <a href="https://virtualjourneys.co.nz" target="_blank" rel="noopener noreferrer" className="hover:text-sand transition-colors">
+                <a href="https://virtualjourneys.co.nz" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 rounded text-white text-xs font-semibold hover:opacity-90 transition-opacity" style={{ backgroundColor: "#0B4A7A" }}>
                   Virtual Journeys NZ
                 </a>
               </li>

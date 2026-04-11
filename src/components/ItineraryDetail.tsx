@@ -1,25 +1,23 @@
 import Link from "next/link";
 import { Itinerary } from "@/data/itineraries";
+import PageHeader from "@/components/PageHeader";
 
 export default function ItineraryDetail({ itinerary }: { itinerary: Itinerary }) {
   return (
     <>
-      <section className="relative bg-dark text-white py-16">
-        <div className="absolute inset-0 bg-gradient-to-br from-stone-800/90 via-amber-900/70 to-stone-700/80" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Link
-            href={`/itineraries/${itinerary.categorySlug}`}
-            className="text-sand text-sm hover:underline mb-4 inline-block"
-          >
-            <i className="fa-solid fa-arrow-left text-xs mr-1" />
-            Back to {itinerary.category}
-          </Link>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">{itinerary.title}</h1>
-          <span className="inline-block bg-terra/80 text-white text-sm font-bold px-4 py-1.5 rounded-full">
-            {itinerary.duration}
-          </span>
-        </div>
-      </section>
+      <PageHeader>
+        <Link
+          href={`/itineraries/${itinerary.categorySlug}`}
+          className="text-sand text-sm hover:underline mb-4 inline-block"
+        >
+          <i className="fa-solid fa-arrow-left text-xs mr-1" />
+          Back to {itinerary.category}
+        </Link>
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">{itinerary.title}</h1>
+        <span className="inline-block bg-terra/80 text-white text-sm font-bold px-4 py-1.5 rounded-full">
+          {itinerary.duration}
+        </span>
+      </PageHeader>
 
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

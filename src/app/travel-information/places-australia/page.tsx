@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
   title: "Visiting Places in Australia | Guest Australia",
@@ -18,18 +19,15 @@ const places = [
 export default function PlacesAustraliaPage() {
   return (
     <>
-      <section className="relative bg-dark text-white py-16">
-        <div className="absolute inset-0 bg-gradient-to-br from-stone-800/90 via-amber-900/70 to-stone-700/80" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Link href="/travel-information" className="text-sand text-sm hover:underline mb-4 inline-block">
-            <i className="fa-solid fa-arrow-left text-xs mr-1" /> Back to Travel Information
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Visiting Places in Australia</h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Explore the diverse destinations that make Australia one of the world&apos;s most exciting countries to visit.
-          </p>
-        </div>
-      </section>
+      <PageHeader>
+        <Link href="/travel-information" className="text-sand text-sm hover:underline mb-4 inline-block">
+          <i className="fa-solid fa-arrow-left text-xs mr-1" /> Back to Travel Information
+        </Link>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Visiting Places in Australia</h1>
+        <p className="text-white/70 text-lg max-w-2xl mx-auto">
+          Explore the diverse destinations that make Australia one of the world&apos;s most exciting countries to visit.
+        </p>
+      </PageHeader>
 
       <section className="py-16 bg-warm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

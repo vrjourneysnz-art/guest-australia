@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
   title: "Plan Your Australia Holiday | Guest Australia",
@@ -11,17 +12,14 @@ export default function TravelPlanningPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative bg-dark text-white py-16">
-        <div className="absolute inset-0 bg-gradient-to-br from-stone-800/90 via-amber-900/70 to-stone-700/80" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Plan Your Australia Holiday
-          </h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Let Michael craft a personalised itinerary tailored to your interests, budget, and travel style.
-          </p>
-        </div>
-      </section>
+      <PageHeader>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          Plan Your Australia Holiday
+        </h1>
+        <p className="text-white/70 text-lg max-w-2xl mx-auto">
+          Let Michael craft a personalised itinerary tailored to your interests, budget, and travel style.
+        </p>
+      </PageHeader>
 
       {/* Planning Service Description */}
       <section className="py-16 bg-white">
@@ -43,7 +41,7 @@ export default function TravelPlanningPage() {
             <div className="bg-warm rounded-lg p-8 border border-transparent hover:border-sand/50 transition-colors">
               <h3 className="text-2xl font-bold text-dark mb-2">Standard Consultation</h3>
               <p className="text-3xl font-bold text-terra mb-4">US$169</p>
-              <ul className="space-y-2 text-dark/60 text-sm">
+              <ul className="space-y-2 text-dark/60 text-sm mb-6">
                 {["Personalised itinerary design", "Accommodation recommendations", "Transport and logistics guidance", "Email support throughout planning"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <i className="fa-solid fa-check text-terra text-xs mt-1" />
@@ -51,6 +49,14 @@ export default function TravelPlanningPage() {
                   </li>
                 ))}
               </ul>
+              <a
+                href="https://calendly.com/guestnz/15min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center bg-terra text-white py-3 rounded font-semibold hover:bg-terra-dark transition-colors"
+              >
+                Book Now <i className="fa-solid fa-arrow-right text-xs ml-1" />
+              </a>
             </div>
 
             <div className="bg-warm rounded-lg p-8 border-2 border-terra/20 relative">
@@ -59,7 +65,7 @@ export default function TravelPlanningPage() {
               </div>
               <h3 className="text-2xl font-bold text-dark mb-2">Premium Consultation</h3>
               <p className="text-3xl font-bold text-terra mb-4">US$399</p>
-              <ul className="space-y-2 text-dark/60 text-sm">
+              <ul className="space-y-2 text-dark/60 text-sm mb-6">
                 {["Everything in Standard, plus:", "Detailed day-by-day planning", "Booking assistance and reservations", "Video call consultation", "Priority support during your trip"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <i className="fa-solid fa-check text-terra text-xs mt-1" />
@@ -67,6 +73,14 @@ export default function TravelPlanningPage() {
                   </li>
                 ))}
               </ul>
+              <a
+                href="https://calendly.com/guestnz/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center bg-terra text-white py-3 rounded font-semibold hover:bg-terra-dark transition-colors"
+              >
+                Book Now <i className="fa-solid fa-arrow-right text-xs ml-1" />
+              </a>
             </div>
           </div>
         </div>

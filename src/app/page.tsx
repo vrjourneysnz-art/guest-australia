@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -24,18 +25,24 @@ const categories = [
     description: "Romantic escapes for couples",
     href: "/itineraries/honeymoon",
     icon: "fa-heart",
+    image: "/images/honeymoon-daintree.jpg",
+    alt: "Tropical Daintree rainforest lodge with hammock",
   },
   {
     title: "Lifestyle Holidays",
     description: "Curated premium experiences",
     href: "/itineraries/lifestyle",
     icon: "fa-sun",
+    image: "/images/lifestyle-snorkeling.jpg",
+    alt: "Freediver ascending in crystal clear Australian waters",
   },
   {
     title: "Family Holidays",
     description: "Adventures for all ages",
     href: "/itineraries/family",
     icon: "fa-users",
+    image: "/images/family-kangaroo.jpg",
+    alt: "Kangaroo on white sand beach in Australia",
   },
 ];
 
@@ -48,11 +55,16 @@ const steps = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero Section — dark overlay on warm background */}
+      {/* Hero Section */}
       <section className="relative bg-dark text-white overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
-        {/* Placeholder for video/hero image background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/80 via-orange-900/60 to-stone-800/80" />
+        <Image
+          src="/images/hero-reef.jpg"
+          alt="Aerial view of the Great Barrier Reef, Australia"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Australia Travel Planning —<br />
@@ -94,8 +106,12 @@ export default function HomePage() {
                 href={cat.href}
                 className="relative rounded-lg overflow-hidden group h-64 flex items-end"
               >
-                {/* Dark gradient overlay simulating photo card */}
-                <div className="absolute inset-0 bg-gradient-to-br from-stone-700 via-stone-600 to-amber-900" />
+                <Image
+                  src={cat.image}
+                  alt={cat.alt}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                 <div className="relative p-6 text-white w-full">
                   <i className={`fa-solid ${cat.icon} text-2xl mb-3 text-sand`} />
@@ -157,19 +173,21 @@ export default function HomePage() {
               href="https://guestnewzealand.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 px-8 py-4 rounded-lg hover:bg-white/20 transition-colors"
+              className="px-8 py-4 rounded-lg hover:opacity-90 transition-opacity"
+              style={{ backgroundColor: "#789653" }}
             >
               <span className="font-bold text-lg">Guest New Zealand</span>
-              <p className="text-white/60 text-sm mt-1">New Zealand travel planning</p>
+              <p className="text-white/70 text-sm mt-1">New Zealand travel planning</p>
             </a>
             <a
               href="https://virtualjourneys.co.nz"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 px-8 py-4 rounded-lg hover:bg-white/20 transition-colors"
+              className="px-8 py-4 rounded-lg hover:opacity-90 transition-opacity"
+              style={{ backgroundColor: "#0B4A7A" }}
             >
               <span className="font-bold text-lg">Virtual Journeys NZ</span>
-              <p className="text-white/60 text-sm mt-1">YouTube travel channel</p>
+              <p className="text-white/70 text-sm mt-1">YouTube travel channel</p>
             </a>
           </div>
         </div>
