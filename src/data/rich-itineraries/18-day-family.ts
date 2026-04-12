@@ -19,7 +19,7 @@ export const family18Day: RichItinerary = {
     "Drive the iconic Great Ocean Road from Adelaide to Melbourne",
     "Watch the Penguin Parade at Phillip Island near Melbourne",
   ],
-  downloadLink: "https://geni.us/TempAus18Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,

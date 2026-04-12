@@ -22,7 +22,7 @@ export const australiaNzFiji25Day: RichItinerary = {
     "Waitomo's Ruakuri Cave with a 2-hour guided walk",
     "Fiji island stay with meal plan and resort activities",
   ],
-  downloadLink: "https://geni.us/TempAusNZ25Days",
+  downloadLink: "https://geni.us/TempAusNZ3Weeks",
   days: [
     {
       day: 1,

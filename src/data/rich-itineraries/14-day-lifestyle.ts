@@ -17,7 +17,7 @@ export const lifestyle14Day: RichItinerary = {
     "Drive the spectacular Great Ocean Road and see the Twelve Apostles",
     "Enjoy the sophistication of Melbourne's laneways, galleries, and food scene",
   ],
-  downloadLink: "https://geni.us/TempAus14Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,

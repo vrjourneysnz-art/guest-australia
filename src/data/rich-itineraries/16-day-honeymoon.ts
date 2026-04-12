@@ -19,7 +19,7 @@ export const honeymoon16Day: RichItinerary = {
     "Drive the Great Ocean Road, stopping at Port Fairy and Apollo Bay",
     "View the march of the penguins at Phillip Island and enjoy Melbourne's sophisticated shopping and dining",
   ],
-  downloadLink: "https://geni.us/TempAus16Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,

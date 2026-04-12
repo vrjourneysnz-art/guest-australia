@@ -17,7 +17,7 @@ export const honeymoon12Day: RichItinerary = {
     "Get a taste of the Barossa lifestyle near Adelaide and spend a day on Kangaroo Island",
     "Go mad in Melbourne — shop until you drop and dine in top restaurants",
   ],
-  downloadLink: "https://geni.us/TempAus12Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,

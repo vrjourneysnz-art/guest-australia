@@ -22,7 +22,7 @@ export const australiaNz14Day: RichItinerary = {
     "Visit the famous Pancake Rocks and Blowholes at Punakaiki",
     "Explore volcanic areas and hot pools around Rotorua",
   ],
-  downloadLink: "https://geni.us/TempAusNZ14Days",
+  downloadLink: "https://geni.us/TempAusNZ2Weeks",
   days: [
     {
       day: 1,

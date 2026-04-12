@@ -18,7 +18,7 @@ export const family12Day: RichItinerary = {
     "Swim at Peaceful Bay and Greens Pool in William Bay National Park",
     "Learn about Albany's convict history and see dramatic coastal rock formations",
   ],
-  downloadLink: "https://geni.us/TempAus12Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,

@@ -16,7 +16,7 @@ export const lifestyle12Day: RichItinerary = {
     "Experience Adelaide's cosmopolitan culture and visit Kangaroo Island",
     "Enjoy the sophistication of Melbourne and see the famous Penguin Parade on Phillip Island",
   ],
-  downloadLink: "https://geni.us/TempAus12Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,

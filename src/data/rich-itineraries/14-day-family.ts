@@ -18,7 +18,7 @@ export const family14Day: RichItinerary = {
     "Drive through the famous Margaret River wine and food region",
     "Watch the Penguin Parade at Phillip Island near Melbourne",
   ],
-  downloadLink: "https://geni.us/TempAus14Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,

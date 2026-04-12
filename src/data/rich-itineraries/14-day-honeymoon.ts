@@ -18,7 +18,7 @@ export const honeymoon14Day: RichItinerary = {
     "Drive the Great Ocean Road from Adelaide to Melbourne, stopping at Mt Gambier and Port Fairy",
     "Visit Phillip Island to see the famous penguin march and dine Melbourne style",
   ],
-  downloadLink: "https://geni.us/TempAus14Days",
+  downloadLink: "https://geni.us/TempAus2Weeks",
   days: [
     {
       day: 1,
