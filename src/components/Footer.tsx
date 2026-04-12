@@ -52,16 +52,16 @@ export default function Footer() {
             <h4 className="font-bold mb-3 text-sand text-sm uppercase tracking-wider">Contact</h4>
             <p className="text-sm text-white/70 mb-4">michael@guestaustralia.com</p>
             <div className="flex space-x-4">
-              <a href="#" aria-label="YouTube" className="text-white/50 hover:text-sand transition-colors">
+              <a href="https://geni.us/AustraliaPlaylist" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-white/50 hover:text-sand transition-colors">
                 <i className="fa-brands fa-youtube text-lg" />
               </a>
-              <a href="#" aria-label="Facebook" className="text-white/50 hover:text-sand transition-colors">
+              <a href="http://facebook.com/GUESTOZ" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-white/50 hover:text-sand transition-colors">
                 <i className="fa-brands fa-facebook-f text-lg" />
               </a>
-              <a href="#" aria-label="Instagram" className="text-white/50 hover:text-sand transition-colors">
+              <a href="https://www.instagram.com/guestaustralia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-white/50 hover:text-sand transition-colors">
                 <i className="fa-brands fa-instagram text-lg" />
               </a>
-              <a href="#" aria-label="LinkedIn" className="text-white/50 hover:text-sand transition-colors">
+              <a href="https://nz.linkedin.com/in/michaelnees" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-white/50 hover:text-sand transition-colors">
                 <i className="fa-brands fa-linkedin-in text-lg" />
               </a>
             </div>
