@@ -22,7 +22,7 @@ export async function POST(request: Request) {
 
     await resend.emails.send({
       from: "Guest Australia <enquiries@guestaustralia.com>",
-      to: "michael@guestaustralia.com",
+      to: "michael@ginz.com",
       replyTo: email,
       subject: `New Travel Enquiry from ${name}`,
       html: `
