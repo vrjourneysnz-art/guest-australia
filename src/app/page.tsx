@@ -47,9 +47,9 @@ const categories = [
 ];
 
 const steps = [
-  { number: "1", title: "View Itineraries", description: "Browse our curated collection of Australia travel itineraries across all holiday types.", icon: "fa-map" },
-  { number: "2", title: "Receive Your Quote", description: "Get a personalised quote tailored to your travel dates, group size, and preferences.", icon: "fa-file-invoice" },
-  { number: "3", title: "Communicate with Michael", description: "Work directly with Michael to refine every detail of your Australian adventure.", icon: "fa-comments" },
+  { number: "1", title: "View Itineraries", description: "Browse our curated collection of Australia travel itineraries across all holiday types.", icon: "fa-map", href: "/itineraries" },
+  { number: "2", title: "Travel Planning Service", description: "Schedule a time to talk with Michael.", icon: "fa-calendar-check", href: "/travel-planning" },
+  { number: "3", title: "Receive Your Plan", description: "Get your personalised travel itinerary template.", icon: "fa-file-lines", href: "" },
 ];
 
 export default function HomePage() {
@@ -133,15 +133,26 @@ export default function HomePage() {
             How It Works
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {steps.map((step) => (
-              <div key={step.number} className="text-center">
-                <div className="w-16 h-16 bg-terra text-white rounded-full flex items-center justify-center mx-auto mb-4">
-                  <i className={`fa-solid ${step.icon} text-xl`} />
+            {steps.map((step) => {
+              const content = (
+                <>
+                  <div className="w-16 h-16 bg-terra text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i className={`fa-solid ${step.icon} text-xl`} />
+                  </div>
+                  <h3 className="text-lg font-bold text-dark mb-2">{step.title}</h3>
+                  <p className="text-dark/60 text-sm">{step.description}</p>
+                </>
+              );
+              return step.href ? (
+                <Link key={step.number} href={step.href} className="text-center group hover:opacity-80 transition-opacity">
+                  {content}
+                </Link>
+              ) : (
+                <div key={step.number} className="text-center">
+                  {content}
                 </div>
-                <h3 className="text-lg font-bold text-dark mb-2">{step.title}</h3>
-                <p className="text-dark/60 text-sm">{step.description}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
