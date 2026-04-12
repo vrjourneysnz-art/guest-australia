@@ -231,7 +231,7 @@ export default function RichItineraryDetail({ itinerary }: { itinerary: RichItin
                 </div>
               </a>
               <a
-                href="https://geni.us/StayAustralia"
+                href="https://geni.us/SydneyHotels"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
@@ -243,7 +243,7 @@ export default function RichItineraryDetail({ itinerary }: { itinerary: RichItin
                 </div>
               </a>
               <a
-                href="https://geni.us/ToursAustralia"
+                href="https://geni.us/SydneyOperaBackstage"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
@@ -255,7 +255,7 @@ export default function RichItineraryDetail({ itinerary }: { itinerary: RichItin
                 </div>
               </a>
               <a
-                href="https://geni.us/MotorhomesAustralia"
+                href="https://geni.us/CamperAustralia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
