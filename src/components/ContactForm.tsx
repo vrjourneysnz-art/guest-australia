@@ -16,11 +16,26 @@ interface FormData {
 export default function ContactForm() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
 
   const onSubmit = async (data: FormData) => {
-    console.log("Form submitted:", data);
-    setSubmitted(true);
-    reset();
+    setSending(true);
+    setError("");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error("Failed to send");
+      setSubmitted(true);
+      reset();
+    } catch {
+      setError("Something went wrong. Please try again or email michael@guestaustralia.com directly.");
+    } finally {
+      setSending(false);
+    }
   };
 
   if (submitted) {
@@ -109,11 +124,24 @@ export default function ContactForm() {
           placeholder="Tell us about your dream Australian holiday..."
         />
       </div>
+      {error && (
+        <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-700 text-sm">
+          {error}
+        </div>
+      )}
       <button
         type="submit"
-        className="bg-terra text-white px-8 py-3 rounded font-semibold hover:bg-terra-dark transition-colors"
+        disabled={sending}
+        className="bg-terra text-white px-8 py-3 rounded font-semibold hover:bg-terra-dark transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
       >
-        Send Enquiry
+        {sending ? (
+          <>
+            <i className="fa-solid fa-spinner fa-spin mr-2" />
+            Sending...
+          </>
+        ) : (
+          "Send Enquiry"
+        )}
       </button>
     </form>
   );
