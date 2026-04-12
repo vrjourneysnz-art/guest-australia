@@ -11,9 +11,9 @@ export default function Footer() {
             <Image
               src="/images/logo.jpg"
               alt="Guest Australia"
-              width={180}
-              height={45}
-              className="h-10 w-auto mb-3 brightness-200"
+              width={200}
+              height={80}
+              className="h-20 w-auto mb-3 brightness-200"
             />
             <p className="text-white/60 text-sm">Your Australian Vacation Expert</p>
           </div>
