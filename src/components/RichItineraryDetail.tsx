@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
-import type { RichItinerary, RichDay } from "@/data/rich-itineraries/10-day-honeymoon";
+import type { RichItinerary, RichDay } from "@/data/rich-itineraries/types";
 
 function ActivityTypeBadge({ type }: { type: string }) {
   const styles: Record<string, string> = {
