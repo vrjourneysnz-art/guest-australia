@@ -23,7 +23,7 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-white/70 mb-3">Watch our Australia travel videos on YouTube</p>
           <a
-            href="https://www.youtube.com/channel/UC6gwLUsb-0r75TDPiDZ5Y1A"
+            href="https://geni.us/AustraliaPlaylist"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
@@ -39,7 +39,7 @@ export default function BlogPage() {
       <section className="py-16 bg-warm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {blogPosts.map((post) => (
+            {[...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}

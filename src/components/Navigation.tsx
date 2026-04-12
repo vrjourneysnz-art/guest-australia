@@ -25,8 +25,8 @@ export default function Navigation() {
               src="/images/logo.jpg"
               alt="Guest Australia"
               width={200}
-              height={50}
-              className="h-12 w-auto"
+              height={80}
+              className="h-20 w-auto py-1"
               priority
             />
           </Link>

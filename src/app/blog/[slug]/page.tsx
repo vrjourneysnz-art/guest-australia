@@ -157,7 +157,7 @@ export default function BlogPostPage({ params }: Props) {
               Subscribe to our YouTube channel for destination guides, travel tips, and itinerary inspiration.
             </p>
             <a
-              href="https://www.youtube.com/channel/UC6gwLUsb-0r75TDPiDZ5Y1A"
+              href="https://geni.us/AustraliaPlaylist"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded font-semibold transition-colors"
