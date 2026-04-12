@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
             <Image
@@ -27,23 +27,6 @@ export default function Footer() {
               <li><Link href="/travel-planning" className="hover:text-sand transition-colors">Travel Planning</Link></li>
               <li><Link href="/travel-information" className="hover:text-sand transition-colors">Travel Information</Link></li>
               <li><Link href="/blog" className="hover:text-sand transition-colors">Blog</Link></li>
-            </ul>
-          </div>
-
-          {/* Sister Sites */}
-          <div>
-            <h4 className="font-bold mb-3 text-sand text-sm uppercase tracking-wider">Sister Sites</h4>
-            <ul className="space-y-2 text-sm text-white/70">
-              <li>
-                <a href="https://guestnewzealand.com" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 rounded text-white text-xs font-semibold hover:opacity-90 transition-opacity" style={{ backgroundColor: "#789653" }}>
-                  Guest New Zealand
-                </a>
-              </li>
-              <li>
-                <a href="https://virtualjourneys.co.nz" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 rounded text-white text-xs font-semibold hover:opacity-90 transition-opacity" style={{ backgroundColor: "#0B4A7A" }}>
-                  Virtual Journeys NZ
-                </a>
-              </li>
             </ul>
           </div>
 
