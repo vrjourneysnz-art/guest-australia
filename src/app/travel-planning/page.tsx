@@ -42,7 +42,7 @@ export default function TravelPlanningPage() {
               <h3 className="text-2xl font-bold text-dark mb-2">Standard Consultation</h3>
               <p className="text-3xl font-bold text-terra mb-4">US$169</p>
               <ul className="space-y-2 text-dark/60 text-sm mb-6">
-                {["Personalised itinerary design", "Accommodation recommendations", "Transport and logistics guidance", "Email support throughout planning"].map((item) => (
+                {["Video Call & Tailored itinerary design", "Accommodation recommendations", "Transport and logistics guidance", "Email support throughout planning"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <i className="fa-solid fa-check text-terra text-xs mt-1" />
                     {item}
@@ -66,7 +66,7 @@ export default function TravelPlanningPage() {
               <h3 className="text-2xl font-bold text-dark mb-2">Premium Consultation</h3>
               <p className="text-3xl font-bold text-terra mb-4">US$399</p>
               <ul className="space-y-2 text-dark/60 text-sm mb-6">
-                {["Everything in Standard, plus:", "Detailed day-by-day planning", "Booking assistance and reservations", "Video call consultation", "Priority support during your trip"].map((item) => (
+                {["Everything in Standard, plus:", "Detailed day-by-day planning", "Booking assistance and reservations", "Second Video Call Consultation"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <i className="fa-solid fa-check text-terra text-xs mt-1" />
                     {item}
