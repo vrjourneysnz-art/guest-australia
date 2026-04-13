@@ -110,7 +110,7 @@ export default function TravelPlanningPage() {
       </section>
 
       {/* Expert Profile */}
-      <section className="py-12 bg-sand">
+      <section className="pt-4 pb-12 bg-sand">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-dark mb-3">Meet Your Travel Expert</h2>
