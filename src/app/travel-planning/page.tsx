@@ -86,6 +86,29 @@ export default function TravelPlanningPage() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 bg-sand">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-dark mb-3">
+              See How It Works
+            </h2>
+            <p className="text-dark/60 max-w-2xl mx-auto">
+              Watch Michael explain how he creates personalised Australian holiday itineraries tailored to your travel style.
+            </p>
+          </div>
+          <div className="relative w-full rounded-xl overflow-hidden shadow-lg" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/3Wfx2cy4-aA"
+              title="How Guest Australia Travel Planning Works"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Expert Profile */}
       <section className="py-12 bg-sand">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
