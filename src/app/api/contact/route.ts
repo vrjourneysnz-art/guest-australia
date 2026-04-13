@@ -20,7 +20,7 @@ export async function POST(request: Request) {
       "australia-nz": "Australia & New Zealand",
     };
 
-    await resend.emails.send({
+    const { data, error: sendError } = await resend.emails.send({
       from: "Guest Australia <enquiries@guestaustralia.com>",
       to: "michael@ginz.com",
       replyTo: email,
@@ -57,7 +57,12 @@ export async function POST(request: Request) {
       `,
     });
 
-    return NextResponse.json({ success: true });
+    if (sendError) {
+      console.error("Resend error:", sendError);
+      return NextResponse.json({ error: sendError.message }, { status: 500 });
+    }
+
+    return NextResponse.json({ success: true, id: data?.id });
   } catch (error) {
     console.error("Contact form error:", error);
     return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
