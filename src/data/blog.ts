@@ -11,6 +11,259 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "perth-to-exmouth-road-trip-7-to-10-days",
+    title: "Perth to Exmouth Road Trip: How to Plan It Properly in 7 to 10 Days",
+    date: "April 15, 2026",
+    excerpt: `A perth to exmouth road trip sounds straightforward on paper. But this is one of those drives where one early mistake can shape the entire journey. Here is how to plan it properly so every day counts.`,
+    ogImage: "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FVs22kntpKlQkJHYLSR41%2Fscreenshots%2F16308691-dd9d-4d97-aece-b4404a4e3156.webp?alt=media&token=2d43abd2-0a80-43b0-a9b3-657b760dd544",
+    youtubeIds: ["uAe5XnqVO8Q"],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FVs22kntpKlQkJHYLSR41%2Fscreenshots%2Fe803c258-161b-468f-8a8d-6776dfed534f.webp?alt=media&token=a872fd6b-d404-42d0-8113-c3d5b8d33d69",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FVs22kntpKlQkJHYLSR41%2Fscreenshots%2F16308691-dd9d-4d97-aece-b4404a4e3156.webp?alt=media&token=2d43abd2-0a80-43b0-a9b3-657b760dd544",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FVs22kntpKlQkJHYLSR41%2Fscreenshots%2F712d4d07-ed81-4737-8fa0-c86ac6e92efd.webp?alt=media&token=31132390-9b5c-4a7e-9eba-78c970b34e75",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FVs22kntpKlQkJHYLSR41%2Fscreenshots%2Fd4238568-8c4e-4839-95a2-872e470a37a1.webp?alt=media&token=5374ba7d-e098-4e4c-b77d-f018c2731420",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FVs22kntpKlQkJHYLSR41%2Fscreenshots%2F95cad02f-c473-4ee5-8fce-52f78f4deb7b.webp?alt=media&token=65a01c82-a3ba-42bc-bcb0-f9cd217f8c1b",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FVs22kntpKlQkJHYLSR41%2Fscreenshots%2F2b819da7-1fa1-4723-bc67-fd73f32b1133.webp?alt=media&token=906ba613-dc65-431d-9344-fcd988396963"
+    ],
+    content: `A perth to exmouth road trip sounds straightforward on paper. Head north, stop at the big names, reach Ningaloo, done. But this is one of those drives where one early mistake can shape the entire journey. Pick the wrong vehicle, travel in the wrong season, or misjudge the distances, and suddenly you are spending more time backtracking, refueling, or battling weather than actually enjoying Western Australia.
+
+The good news is that the route is brilliant when you plan it well. Done properly, a perth to exmouth road trip gives you geology, gorges, wild dolphins, reef snorkelling, coastal towns, and one of the greatest wildlife encounters anywhere on Earth.
+
+This is the version that makes every day count.
+
+## The first decision that changes everything: vehicle choice
+
+Before booking accommodation or mapping out daily stops, make one decision first: what are you driving?
+
+A lot of people assume a motorhome or campervan is the obvious option for a long coastal journey. It sounds ideal. You get flexibility, you can cook, and there is the appeal of waking up somewhere beautiful. Fair enough.
+
+But for a perth to exmouth road trip, there is a practical catch that many guides gloss over.
+
+If you hire a motorhome or campervan in Perth, you generally cannot drop it off in Exmouth. There is no easy one-way handover there. That leaves you with two awkward choices:
+
+- Drive all the way back to Perth
+
+- Continue much farther north to Broome to return it there
+
+That second option adds around 1,400 kilometres beyond Exmouth, which is not a minor adjustment. It turns a tidy coastal road trip into something much bigger.
+
+For most people with 7 to 10 days, a standard rental car is the smarter move. Why? Because it gives you what the camper usually cannot: a one-way option.
+
+You can drive from Perth to Exmouth, drop the car there, and then fly out of Learmonth Airport, which is only about 37 kilometres south of town. No retracing the route. No padding the schedule with unnecessary long-haul driving. Just a clean finish.
+
+If you want this trip to feel efficient rather than exhausting, that one decision matters more than almost anything else.
+
+> Important tip: book your Learmonth flight early. Services are limited, especially in peak season, and seats do not hang around forever.
+
+## When to go: the season can make or break the trip
+
+The second big decision is timing, and it is just as important as the vehicle.
+
+The best window for a perth to exmouth road trip is May through October. That is when the Coral Coast usually gives you the kindest conditions:
+
+- Warm but manageable temperatures
+
+- Clearer skies
+
+- Good road conditions
+
+- Excellent reef visibility at Ningaloo
+
+That combination is exactly what you want on a drive with long distances and major outdoor highlights.
+
+From November to April, the story changes. This is the wet season along parts of the coast. Temperatures can push above 40 degrees Celsius, rain can be heavy and unpredictable, and flooding can affect road access. In other words, cheap prices in January or February may come with a very different experience from the one most people imagine.
+
+There is one important exception, though.
+
+If the whole reason for your perth to exmouth road trip is to swim with whale sharks at Ningaloo Reef, aim for late May to early July. That period gives you a sweet spot:
+
+- The whale shark season is running
+
+- Road conditions are improving nicely
+
+- Accommodation can still sit in shoulder-season pricing rather than peak-season rates
+
+If I were choosing the ideal timing, that is the window I would target.
+
+## The practical reality of driving this route
+
+This is not a road trip where fuel, food, and coffee appear every few minutes. Parts of Western Australia feel very remote, because they are very remote.
+
+Some stretches have long gaps between services, and the section from Carnarvon to Coral Bay, around 230 kilometres, is the one that catches people out. Fuel stops are limited and there are very few places to pick up supplies along the way.
+
+So keep the rules simple.
+
+- Fill up every time you reach a town, even if the tank is only half empty
+
+- Carry at least 2 to 3 litres of drinking water per person in the vehicle
+
+- Stock up in Carnarvon as though the next stop is much farther than it looks on the map
+
+That last point matters. Carnarvon is your final major fuel and grocery stop before Coral Bay. Treat it seriously.
+
+A well-planned perth to exmouth road trip is not difficult, but it rewards people who respect the distances.
+
+## A 7 to 10 day Perth to Exmouth road trip itinerary
+
+This route works beautifully as a one-way drive north. It keeps the pace realistic while still giving each major stop enough room to breathe.
+
+### Day 1: Perth to Lancelin, the Pinnacles, and Jurien Bay
+
+Leave Perth and head north to Lancelin, about 130 kilometres from the city. This is the jumping-off point for the famous sand dunes. If you have half an hour to spare, climb them. The scale is bigger than many people expect, and the coastal views are worth the effort.
+
+Continue on to Cervantes and the Pinnacles Desert.
+
+This is one of those landscapes that does not quite make sense until you are standing in it. Thousands of limestone pillars rise out of orange sand in a scene that feels more lunar than coastal Western Australia.
+
+The best time to visit is late afternoon. Midday light can flatten the whole place. As the sun drops lower, the shadows lengthen between the formations and the desert becomes far more dramatic. If you can stay through sunset, do it.
+
+From there, continue to Jurien Bay for the night. It is a practical first stop with fuel, a supermarket, accommodation, and enough amenities to make Day 1 easy. Total distance from Perth is roughly 260 kilometres, which is very manageable.
+
+### Day 2: Jurien Bay to Kalbarri
+
+From Jurien Bay, continue north through Geraldton and on to Kalbarri, roughly 270 kilometres from Jurien Bay.
+
+Try to arrive by mid-afternoon. That gives you time to settle in and prepare properly, because Kalbarri deserves more than a rushed stop.
+
+Here is where many itineraries get it wrong. They give Kalbarri one night and move on. That is not enough.
+
+### Days 2 and 3: Why Kalbarri deserves two nights
+
+Kalbarri is one of the most underrated stops on the entire Coral Coast. It sits above the spectacular gorge country of the Murchison River, and there is enough here to justify two nights if your schedule allows.
+
+The key highlights are:
+
+- Kalbarri Skywalk, extending 100 metres out over the gorge
+
+- Gorge walks that can take 2 to 3 hours return
+
+- Early morning views before the busier part of the day
+
+The Skywalk is particularly striking in the morning light. Suspended over the gorge, it gives you that dramatic out-over-the-edge perspective that photographs never quite capture properly.
+
+If you only stay one night, you will likely feel rushed. Kalbarri is better when you have time to move at a slower pace and actually explore the gorge system instead of just ticking off one lookout.
+
+### Days 4 and 5: Shark Bay and Monkey Mia
+
+From Kalbarri, continue to Shark Bay, a UNESCO World Heritage Area that deserves two full days. Not one. Two.
+
+The best-known stop here is Monkey Mia, where wild bottlenose dolphins regularly come into the shallow water in the morning. This is not a staged marine park encounter. These are wild dolphins that have been visiting the bay for decades.
+
+Timing matters a lot.
+
+The dolphins typically arrive between 7:30 and 9:00 am, so aim to be there before 7:30. Early arrival means:
+
+- Better positioning
+
+- Fewer crowds
+
+- More time before larger tour groups arrive
+
+There is a small entry fee, and it is worth paying.
+
+Beyond Monkey Mia, Shark Bay has more than enough to fill your time. Two places stand out:
+
+- Shell Beach, a beach made entirely of tiny shells compressed metres deep
+
+- Hamelin Pool, where you can see stromatolites, among the oldest known life forms on Earth
+
+That mix of wildlife, strange geology, and deep natural history is what makes Shark Bay special. It is not just one dolphin stop and back in the car.
+
+### An extra stop most itineraries miss: Hamelin Station
+
+If you have one spare night on your perth to exmouth road trip, consider adding Hamelin Station.
+
+This is a historic working sheep station on the southern edge of Shark Bay. Accommodation is simple and station-style, but that is the point. It offers a completely different feel from the coast-hugging hotel route. Quiet, remote, and unmistakably outback, it shows a side of Western Australia that many people speed past without ever really noticing.
+
+It is not flashy. It is memorable.
+
+### Day 6: Shark Bay to Carnarvon to Coral Bay
+
+From Shark Bay, head north to Carnarvon. Fuel up. Stock up. Follow the rule.
+
+Then continue to Coral Bay, roughly 360 kilometres from Shark Bay.
+
+Many people are so focused on Exmouth that they drive straight through Coral Bay. That is a mistake.
+
+Coral Bay is tiny, but it sits directly on the Ningaloo Reef. No boat is required. You can walk off the beach and be snorkelling above living coral within minutes. The water is calm and clear, and marine life is everywhere: reef fish, rays, turtles, and in season even whale sharks visible from shore.
+
+It is quieter than Exmouth and has a more intimate reef-town feel.
+
+The main catch is accommodation. Options are limited, so book early if Coral Bay is part of your plan.
+
+Give it one to three nights, depending on the time you have available.
+
+### Days 7 to 10: Exmouth and Cape Range National Park
+
+From Coral Bay, it is about 150 kilometres north to Exmouth, your final base and the point where the whole journey pays off.
+
+Exmouth is the gateway to Cape Range National Park, which runs for around 50 kilometres along the western coastline. This is where the reef, beaches, and marine life come together in a way that fully justifies the drive.
+
+One standout is Turquoise Bay, easily one of the most beautiful beaches in Australia. The water is astonishingly clear, and snorkelling here puts you over reef in conditions that make every colour look sharper.
+
+If your perth to exmouth road trip falls in the May to July window, this is also the time for the famous Ningaloo whale shark season.
+
+Guided tours operate from Exmouth. A spotter plane searches from above, the boat moves into position, and then you slide into the water alongside an animal that can be eight to ten metres long.
+
+That experience is extraordinary. Not just good. Not just memorable. Genuinely extraordinary.
+
+For many people, it is the single reason to do the trip. For others, it becomes the unforgettable high point of an already excellent route.
+
+## Why this route works so well
+
+The strength of this perth to exmouth road trip is that it builds in layers.
+
+- The Pinnacles give you surreal desert geology early
+
+- Kalbarri adds dramatic gorge country
+
+- Shark Bay brings wildlife and rare natural history
+
+- Coral Bay introduces easy reef access
+
+- Exmouth finishes with Cape Range and whale sharks
+
+Each stop earns the next one. The scenery shifts, the experiences evolve, and the drive never feels like the same thing repeated over and over.
+
+That is why the one-way setup matters so much. Instead of looping back and burning days on duplicate roads, you keep moving toward a stronger finale, then fly back to Perth from Learmonth the same afternoon.
+
+## Suggested trip length
+
+If you are deciding how long to allow, here is the practical version:
+
+- 7 days if you are moving efficiently and keeping stops focused
+
+- 8 to 10 days if you want a much better balance with proper time in Kalbarri, Shark Bay, Coral Bay, and Exmouth
+
+If you only have a week, this route is still possible. But if you can stretch to nine or ten days, your perth to exmouth road trip will feel far less rushed and far more rewarding.
+
+## Final planning tips for a smoother Perth to Exmouth road trip
+
+- Choose a rental car over a motorhome if you want a practical one-way trip
+
+- Travel between May and October for the best overall conditions
+
+- Aim for late May to early July if whale sharks are a priority
+
+- Book Learmonth flights early
+
+- Do not underestimate Kalbarri and Shark Bay
+
+- Refuel whenever you can
+
+- Carry drinking water at all times
+
+- Do not skip Coral Bay just because Exmouth is the headline destination
+
+## The Perth to Exmouth road trip done properly
+
+A great perth to exmouth road trip is not about squeezing in the maximum number of pins on a map. It is about making smart choices early so the route flows properly from beginning to end.
+
+Pick the right vehicle. Go in the right season. Respect the distances. Give the best stops enough time. Then let the coast do the rest.
+
+When you get that balance right, this drive becomes far more than a long journey north. It becomes one of Australia's great road trips, with a finish that absolutely lives up to the promise.`,
+  },
+  {
     slug: "12-australia-travel-tips-before-you-go",
     title: "12 Australia Travel Tips Before You Go",
     date: "December 06, 2025",
