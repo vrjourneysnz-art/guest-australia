@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const itineraryDropdown = [
   { label: "Lifestyle Holidays", href: "/itineraries/lifestyle" },
-  { label: "Family Holidays", href: "/itineraries/family" },
+  { label: "Family Holidays", href: "/itineraries/family-holiday-australia" },
   { label: "Honeymoon Packages", href: "/itineraries/honeymoon" },
   { label: "Australia & NZ", href: "/itineraries/australia-nz" },
 ];

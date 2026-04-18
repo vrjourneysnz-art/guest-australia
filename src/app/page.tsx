@@ -39,7 +39,7 @@ const categories = [
   {
     title: "Family Holidays",
     description: "Adventures for all ages",
-    href: "/itineraries/family",
+    href: "/itineraries/family-holiday-australia",
     icon: "fa-users",
     image: "/images/family-kangaroo.jpg",
     alt: "Kangaroo on white sand beach in Australia",
