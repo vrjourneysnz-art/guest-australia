@@ -58,6 +58,16 @@ const nextConfig = {
         destination: "/itineraries/australia-and-new-zealand-vacation-packages/2-week-trip-australia-new-zealand",
         permanent: true,
       },
+      {
+        source: "/itineraries/honeymoon-packages-australia/10-day-honeymoon-trip-in-australia",
+        destination: "/itineraries/honeymoon-packages-australia/10-day-honeymoon-packages-australia",
+        permanent: true,
+      },
+      {
+        source: "/itineraries/honeymoon-packages-australia/16-day-australia-vacation",
+        destination: "/itineraries/honeymoon-packages-australia/16-day-australia-honeymoon-vacation",
+        permanent: true,
+      },
     ];
   },
 };
