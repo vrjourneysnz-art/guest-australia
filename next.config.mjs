@@ -42,6 +42,22 @@ const nextConfig = {
         destination: "/itineraries/australia-and-new-zealand-vacation-packages/:slug",
         permanent: true,
       },
+      // Legacy WordPress / slug-change redirects
+      {
+        source: "/itineraries/australia-and-new-zealand-vacation-packages/difference-between-australia-and-new-zealand",
+        destination: "/itineraries/australia-and-new-zealand-vacation-packages/australia-and-new-zealand-16-days",
+        permanent: true,
+      },
+      {
+        source: "/itinerary-categories/australia-and-new-zealand-vacation-packages",
+        destination: "/itineraries/australia-and-new-zealand-vacation-packages/australia-new-zealand-vacation-3-weeks",
+        permanent: true,
+      },
+      {
+        source: "/itineraries/australia-and-new-zealand-vacation-packages/two-week-trip-to-australia-and-new-zealand",
+        destination: "/itineraries/australia-and-new-zealand-vacation-packages/2-week-trip-australia-new-zealand",
+        permanent: true,
+      },
     ];
   },
 };
