@@ -42,7 +42,7 @@ export default function BlogPage() {
             {[...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).map((post) => (
               <Link
                 key={post.slug}
-                href={`/blog/${post.slug}`}
+                href={`/australia-travel-blogs/${post.slug}`}
                 className="bg-white rounded-lg overflow-hidden hover:shadow-md transition-shadow group border border-gray-100"
               >
                 {/* Thumbnail: YouTube frame or OG image or gradient fallback */}

@@ -68,6 +68,16 @@ const nextConfig = {
         destination: "/itineraries/honeymoon-packages-australia/16-day-australia-honeymoon-vacation",
         permanent: true,
       },
+      {
+        source: "/blog",
+        destination: "/australia-travel-blogs",
+        permanent: true,
+      },
+      {
+        source: "/blog/:slug",
+        destination: "/australia-travel-blogs/:slug",
+        permanent: true,
+      },
     ];
   },
 };

@@ -28,7 +28,7 @@ export default function BlogPostPage({ params }: Props) {
   return (
     <>
       <PageHeader>
-        <Link href="/blog" className="text-sand text-sm hover:underline mb-4 inline-block">
+        <Link href="/australia-travel-blogs" className="text-sand text-sm hover:underline mb-4 inline-block">
           &larr; Back to Blog
         </Link>
         <h1 className="text-3xl md:text-5xl font-bold mb-4">{post.title}</h1>
