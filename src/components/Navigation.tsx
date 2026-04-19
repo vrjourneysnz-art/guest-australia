@@ -5,10 +5,10 @@ import Image from "next/image";
 import { useState } from "react";
 
 const itineraryDropdown = [
-  { label: "Lifestyle Holidays", href: "/itineraries/lifestyle" },
+  { label: "Lifestyle Holidays", href: "/itineraries/australia-lifestyle-holidays" },
   { label: "Family Holidays", href: "/itineraries/family-holiday-australia" },
-  { label: "Honeymoon Packages", href: "/itineraries/honeymoon" },
-  { label: "Australia & NZ", href: "/itineraries/australia-nz" },
+  { label: "Honeymoon Packages", href: "/itineraries/honeymoon-packages-australia" },
+  { label: "Australia & NZ", href: "/itineraries/australia-and-new-zealand-vacation-packages" },
 ];
 
 export default function Navigation() {

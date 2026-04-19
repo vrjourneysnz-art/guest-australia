@@ -23,7 +23,7 @@ const categories = [
   {
     title: "Honeymoon Australia",
     description: "Romantic escapes for couples",
-    href: "/itineraries/honeymoon",
+    href: "/itineraries/honeymoon-packages-australia",
     icon: "fa-heart",
     image: "/images/honeymoon-daintree.jpg",
     alt: "Tropical Daintree rainforest lodge with hammock",
@@ -31,7 +31,7 @@ const categories = [
   {
     title: "Lifestyle Holidays",
     description: "Curated premium experiences",
-    href: "/itineraries/lifestyle",
+    href: "/itineraries/australia-lifestyle-holidays",
     icon: "fa-sun",
     image: "/images/lifestyle-snorkeling.jpg",
     alt: "Freediver ascending in crystal clear Australian waters",
