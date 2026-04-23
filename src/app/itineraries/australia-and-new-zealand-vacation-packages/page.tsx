@@ -4,8 +4,9 @@ import ItineraryCard from "@/components/ItineraryCard";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Australia & New Zealand Itineraries | Guest Australia",
+  title: "Australia and New Zealand Vacation Packages | Guest Australia",
   description: "Combined Australia and New Zealand travel itineraries — experience the best of both countries in one incredible journey.",
+  alternates: { canonical: "/itineraries/australia-and-new-zealand-vacation-packages" },
 };
 
 export default function AustraliaNzPage() {

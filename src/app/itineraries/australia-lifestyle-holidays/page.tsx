@@ -4,8 +4,9 @@ import ItineraryCard from "@/components/ItineraryCard";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Lifestyle Holidays Australia | Guest Australia",
+  title: "Australia Lifestyle Holidays | Guest Australia",
   description: "Curated lifestyle holiday itineraries for discerning travellers — fine dining, premium accommodation, and stunning Australian scenery.",
+  alternates: { canonical: "/itineraries/australia-lifestyle-holidays" },
 };
 
 export default function LifestylePage() {

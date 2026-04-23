@@ -5,6 +5,7 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Visiting Places in Australia | Guest Australia",
   description: "Discover Australia's most iconic destinations — Sydney, Melbourne, Queensland, Uluru, Tasmania, and Western Australia.",
+  alternates: { canonical: "/travel-information/places-australia" },
 };
 
 const places = [

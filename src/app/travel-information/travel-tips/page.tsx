@@ -5,6 +5,7 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Helpful Travel Tips for Australia | Guest Australia",
   description: "Essential travel tips for visiting Australia — visa info, best times to visit, packing advice, health and safety, and more.",
+  alternates: { canonical: "/travel-information/travel-tips" },
 };
 
 const tips = [

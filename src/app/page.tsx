@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Guest Australia | Personalised Australia Holiday Planning",
+  description:
+    "Your expert Australia travel designer. Personalised lifestyle, family, honeymoon and Australia/NZ itineraries built by Michael Nees with 30+ years of local expertise.",
+  alternates: { canonical: "/" },
+};
 
 const testimonials = [
   {

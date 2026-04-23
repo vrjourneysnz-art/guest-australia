@@ -4,8 +4,9 @@ import ItineraryCard from "@/components/ItineraryCard";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Family Holidays Australia | Guest Australia",
+  title: "Family Holiday Australia | Guest Australia",
   description: "Family-friendly Australia holiday itineraries — beaches, wildlife encounters, theme parks, and unforgettable adventures for all ages.",
+  alternates: { canonical: "/itineraries/family-holiday-australia" },
 };
 
 export default function FamilyPage() {

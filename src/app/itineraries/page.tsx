@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Australia Travel Itineraries | Guest Australia",
   description:
     "Browse our curated collection of Australia travel itineraries — lifestyle holidays, family adventures, honeymoon packages, and combined Australia & New Zealand trips.",
+  alternates: { canonical: "/itineraries" },
 };
 
 export default function ItinerariesPage() {

@@ -25,11 +25,14 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: Props): Metadata {
+  const canonical = `/itineraries/family-holiday-australia/${params.slug}`;
   const rich = richItineraries[params.slug];
   if (rich) {
     return {
       title: `${rich.title} | Guest Australia`,
       description: rich.metaDescription,
+      alternates: { canonical },
+      openGraph: { type: "article", url: canonical, title: rich.title, description: rich.metaDescription },
     };
   }
   const itinerary = getItinerary("family", params.slug);
@@ -37,6 +40,8 @@ export function generateMetadata({ params }: Props): Metadata {
   return {
     title: `${itinerary.title} | Guest Australia`,
     description: itinerary.intro,
+    alternates: { canonical },
+    openGraph: { type: "article", url: canonical, title: itinerary.title, description: itinerary.intro },
   };
 }
 

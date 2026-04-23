@@ -15,9 +15,25 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const post = getBlogPost(params.slug);
   if (!post) return {};
+  const url = `/australia-travel-blogs/${post.slug}`;
   return {
     title: `${post.title} | Guest Australia`,
     description: post.excerpt,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      url,
+      title: post.title,
+      description: post.excerpt,
+      publishedTime: new Date(post.date).toISOString(),
+      images: post.ogImage ? [{ url: post.ogImage, alt: post.title }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: post.ogImage ? [post.ogImage] : undefined,
+    },
   };
 }
 

@@ -6,6 +6,7 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Honeymoon Packages Australia | Guest Australia",
   description: "Romantic Australian honeymoon packages — luxury lodges, private experiences, and breathtaking destinations for couples.",
+  alternates: { canonical: "/itineraries/honeymoon-packages-australia" },
 };
 
 export default function HoneymoonPage() {

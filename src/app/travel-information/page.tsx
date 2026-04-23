@@ -5,6 +5,7 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Australia Travel Information | Guest Australia",
   description: "Helpful travel tips, guides, and destination information for planning your Australia holiday.",
+  alternates: { canonical: "/travel-information" },
 };
 
 const sections = [
