@@ -78,6 +78,27 @@ const nextConfig = {
         destination: "/australia-travel-blogs/:slug",
         permanent: true,
       },
+      // Legacy WordPress sitemap URLs → new Next.js sitemap
+      {
+        source: "/sitemap_index.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/page-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/post-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/category-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
     ];
   },
 };
