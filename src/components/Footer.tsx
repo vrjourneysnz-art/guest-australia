@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
             <Image
@@ -27,6 +27,25 @@ export default function Footer() {
               <li><Link href="/travel-planning" className="hover:text-sand transition-colors">Travel Planning</Link></li>
               <li><Link href="/travel-information" className="hover:text-sand transition-colors">Travel Information</Link></li>
               <li><Link href="/australia-travel-blogs" className="hover:text-sand transition-colors">Blog</Link></li>
+            </ul>
+          </div>
+
+          {/* Sister Sites */}
+          <div>
+            <h4 className="font-bold mb-3 text-sand text-sm uppercase tracking-wider">Sister Sites</h4>
+            <ul className="space-y-2 text-sm text-white/70">
+              <li>
+                <a href="https://guestnewzealand.com" target="_blank" rel="noopener noreferrer" className="hover:text-sand transition-colors">
+                  Guest New Zealand
+                </a>
+                <p className="text-xs text-white/40">NZ travel planning</p>
+              </li>
+              <li className="pt-2">
+                <a href="https://virtualjourneys.co.nz" target="_blank" rel="noopener noreferrer" className="hover:text-sand transition-colors">
+                  Virtual Journeys NZ
+                </a>
+                <p className="text-xs text-white/40">YouTube travel channel</p>
+              </li>
             </ul>
           </div>
 
