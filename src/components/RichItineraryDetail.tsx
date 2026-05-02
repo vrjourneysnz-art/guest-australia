@@ -166,7 +166,7 @@ function UsefulTravelResources() {
 
 export default function RichItineraryDetail({
   itinerary,
-  resourcesPosition = "bottom",
+  resourcesPosition = "top",
 }: {
   itinerary: RichItinerary;
   resourcesPosition?: "top" | "bottom";
