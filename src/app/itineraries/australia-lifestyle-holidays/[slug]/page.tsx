@@ -48,7 +48,9 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function LifestyleItineraryPage({ params }: Props) {
   const rich = richItineraries[params.slug];
   if (rich) {
-    return <RichItineraryDetail itinerary={rich} />;
+    const resourcesPosition =
+      params.slug === "7-days-australia-vacation-package" ? "top" : "bottom";
+    return <RichItineraryDetail itinerary={rich} resourcesPosition={resourcesPosition} />;
   }
   const itinerary = getItinerary("lifestyle", params.slug);
   if (!itinerary) notFound();

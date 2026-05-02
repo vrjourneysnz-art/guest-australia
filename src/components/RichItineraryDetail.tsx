@@ -100,7 +100,77 @@ function DayCard({ day }: { day: RichDay }) {
   );
 }
 
-export default function RichItineraryDetail({ itinerary }: { itinerary: RichItinerary }) {
+function UsefulTravelResources() {
+  return (
+    <div className="border border-gray-100 rounded-lg p-8">
+      <h2 className="text-xl font-bold text-dark mb-4">
+        <i className="fa-solid fa-suitcase text-terra mr-2" />
+        Useful Travel Resources
+      </h2>
+      <p className="text-dark/50 text-sm mb-6">
+        Planning your own arrangements? These trusted partners offer competitive rates across Australia.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <a
+          href="https://geni.us/RentalCarsAustralia"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
+        >
+          <i className="fa-solid fa-car text-terra text-lg" />
+          <div>
+            <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Rental Cars Australia</span>
+            <p className="text-dark/40 text-xs">Compare car hire deals</p>
+          </div>
+        </a>
+        <a
+          href="https://geni.us/SydneyHotels"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
+        >
+          <i className="fa-solid fa-hotel text-terra text-lg" />
+          <div>
+            <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Accommodation</span>
+            <p className="text-dark/40 text-xs">Find hotels &amp; lodges</p>
+          </div>
+        </a>
+        <a
+          href="https://geni.us/SydneyOperaBackstage"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
+        >
+          <i className="fa-solid fa-ticket text-terra text-lg" />
+          <div>
+            <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Tours &amp; Activities</span>
+            <p className="text-dark/40 text-xs">Book experiences online</p>
+          </div>
+        </a>
+        <a
+          href="https://geni.us/CamperAustralia"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
+        >
+          <i className="fa-solid fa-caravan text-terra text-lg" />
+          <div>
+            <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Motorhome Hire</span>
+            <p className="text-dark/40 text-xs">Campervan &amp; motorhome rentals</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default function RichItineraryDetail({
+  itinerary,
+  resourcesPosition = "bottom",
+}: {
+  itinerary: RichItinerary;
+  resourcesPosition?: "top" | "bottom";
+}) {
   return (
     <>
       <PageHeader>
@@ -148,6 +218,13 @@ export default function RichItineraryDetail({ itinerary }: { itinerary: RichItin
               ))}
             </ul>
           </div>
+
+          {/* Useful Travel Resources (top position) */}
+          {resourcesPosition === "top" && (
+            <div className="mb-12">
+              <UsefulTravelResources />
+            </div>
+          )}
 
           {/* Day by Day */}
           <h2 className="text-2xl font-bold text-dark mb-6">
@@ -208,66 +285,12 @@ export default function RichItineraryDetail({ itinerary }: { itinerary: RichItin
             </div>
           </div>
 
-          {/* Affiliate Resources */}
-          <div className="mt-12 border border-gray-100 rounded-lg p-8">
-            <h2 className="text-xl font-bold text-dark mb-4">
-              <i className="fa-solid fa-suitcase text-terra mr-2" />
-              Useful Travel Resources
-            </h2>
-            <p className="text-dark/50 text-sm mb-6">
-              Planning your own arrangements? These trusted partners offer competitive rates across Australia.
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a
-                href="https://geni.us/RentalCarsAustralia"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
-              >
-                <i className="fa-solid fa-car text-terra text-lg" />
-                <div>
-                  <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Rental Cars Australia</span>
-                  <p className="text-dark/40 text-xs">Compare car hire deals</p>
-                </div>
-              </a>
-              <a
-                href="https://geni.us/SydneyHotels"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
-              >
-                <i className="fa-solid fa-hotel text-terra text-lg" />
-                <div>
-                  <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Accommodation</span>
-                  <p className="text-dark/40 text-xs">Find hotels &amp; lodges</p>
-                </div>
-              </a>
-              <a
-                href="https://geni.us/SydneyOperaBackstage"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
-              >
-                <i className="fa-solid fa-ticket text-terra text-lg" />
-                <div>
-                  <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Tours &amp; Activities</span>
-                  <p className="text-dark/40 text-xs">Book experiences online</p>
-                </div>
-              </a>
-              <a
-                href="https://geni.us/CamperAustralia"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 border border-gray-100 rounded-lg p-4 hover:border-terra/30 hover:bg-warm/50 transition-colors group"
-              >
-                <i className="fa-solid fa-caravan text-terra text-lg" />
-                <div>
-                  <span className="font-semibold text-dark text-sm group-hover:text-terra transition-colors">Motorhome Hire</span>
-                  <p className="text-dark/40 text-xs">Campervan &amp; motorhome rentals</p>
-                </div>
-              </a>
+          {/* Useful Travel Resources (bottom position) */}
+          {resourcesPosition === "bottom" && (
+            <div className="mt-12">
+              <UsefulTravelResources />
             </div>
-          </div>
+          )}
         </div>
       </section>
     </>
