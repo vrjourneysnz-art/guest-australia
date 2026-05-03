@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://guestaustralia.com"),
   title: {
     default: "Australia Travel Planning | Guest Australia",
-    template: "%s | Guest Australia",
+    template: "%s",
   },
   description:
     "Plan your dream Australia holiday with Guest Australia. Personalised itineraries, expert travel planning, and authentic Australian experiences with 30+ years of local expertise.",
