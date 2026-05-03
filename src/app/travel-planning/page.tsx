@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import PageHeader from "@/components/PageHeader";
 
@@ -115,11 +116,18 @@ export default function TravelPlanningPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-dark mb-3">Meet Your Travel Expert</h2>
-            <p className="text-dark/60 leading-relaxed">
-              Michael Nees is a New Zealand-based travel designer with over 30 years of expertise
+            <p className="text-dark/60 leading-relaxed mb-5">
+              Michael Nees is a travel designer with over 30 years of expertise
               planning Australian holidays. From Sydney&apos;s harbour to the red heart of the Outback,
               Michael&apos;s firsthand knowledge ensures every trip is extraordinary.
             </p>
+            <Link
+              href="/about-us"
+              className="inline-flex items-center gap-2 text-terra font-semibold hover:text-terra-dark transition-colors"
+            >
+              Read more about Michael
+              <i className="fa-solid fa-arrow-right text-xs" />
+            </Link>
           </div>
         </div>
       </section>

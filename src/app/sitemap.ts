@@ -15,6 +15,7 @@ const staticRoutes: string[] = [
   "/travel-information",
   "/travel-information/places-australia",
   "/travel-information/travel-tips",
+  "/about-us",
   "/australia-travel-blogs",
 ];
 

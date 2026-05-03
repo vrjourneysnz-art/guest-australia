@@ -26,6 +26,7 @@ export default function Footer() {
               <li><Link href="/itineraries" className="hover:text-sand transition-colors">Itineraries</Link></li>
               <li><Link href="/travel-planning" className="hover:text-sand transition-colors">Travel Planning</Link></li>
               <li><Link href="/travel-information" className="hover:text-sand transition-colors">Travel Information</Link></li>
+              <li><Link href="/about-us" className="hover:text-sand transition-colors">About Us</Link></li>
               <li><Link href="/australia-travel-blogs" className="hover:text-sand transition-colors">Blog</Link></li>
             </ul>
           </div>
