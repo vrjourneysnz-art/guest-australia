@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import type React from "react";
 import { getBlogPost, blogPosts } from "@/data/blog";
 import PageHeader from "@/components/PageHeader";
 
@@ -10,6 +11,45 @@ interface Props {
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
+}
+
+// Render inline markdown: [text](url) → <a>, **text** → <strong>
+function formatInline(text: string): React.ReactNode[] {
+  const tokens: React.ReactNode[] = [];
+  // Combined regex: link OR bold
+  const pattern = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      tokens.push(text.slice(lastIndex, match.index));
+    }
+    if (match[1] && match[2]) {
+      // Markdown link
+      const isExternal = /^https?:\/\//.test(match[2]);
+      tokens.push(
+        <a
+          key={`l${key++}`}
+          href={match[2]}
+          target={isExternal ? "_blank" : undefined}
+          rel={isExternal ? "noopener noreferrer" : undefined}
+          className="text-terra font-semibold hover:underline"
+        >
+          {match[1]}
+        </a>,
+      );
+    } else if (match[3]) {
+      tokens.push(
+        <strong key={`b${key++}`} className="font-semibold text-dark">
+          {match[3]}
+        </strong>,
+      );
+    }
+    lastIndex = pattern.lastIndex;
+  }
+  if (lastIndex < text.length) tokens.push(text.slice(lastIndex));
+  return tokens;
 }
 
 export function generateMetadata({ params }: Props): Metadata {
@@ -100,42 +140,42 @@ export default function BlogPostPage({ params }: Props) {
               if (trimmed.startsWith("## "))
                 return (
                   <h2 key={i} className="text-2xl font-bold text-dark mt-10 mb-4">
-                    {trimmed.replace("## ", "")}
+                    {formatInline(trimmed.replace("## ", ""))}
                   </h2>
                 );
               if (trimmed.startsWith("### "))
                 return (
                   <h3 key={i} className="text-xl font-bold text-dark mt-8 mb-3">
-                    {trimmed.replace("### ", "")}
+                    {formatInline(trimmed.replace("### ", ""))}
                   </h3>
                 );
               if (trimmed.startsWith("#### "))
                 return (
                   <h4 key={i} className="text-lg font-semibold text-dark mt-6 mb-2">
-                    {trimmed.replace("#### ", "")}
+                    {formatInline(trimmed.replace("#### ", ""))}
                   </h4>
                 );
               if (trimmed.startsWith("##### "))
                 return (
                   <h5 key={i} className="text-base font-semibold text-dark mt-4 mb-2">
-                    {trimmed.replace("##### ", "")}
+                    {formatInline(trimmed.replace("##### ", ""))}
                   </h5>
                 );
               if (trimmed.startsWith("- "))
                 return (
                   <li key={i} className="text-dark/70 leading-relaxed ml-4 mb-1">
-                    {trimmed.replace("- ", "")}
+                    {formatInline(trimmed.replace("- ", ""))}
                   </li>
                 );
               if (trimmed.startsWith("> "))
                 return (
                   <blockquote key={i} className="border-l-4 border-terra pl-4 italic text-dark/60 my-4">
-                    {trimmed.replace("> ", "")}
+                    {formatInline(trimmed.replace("> ", ""))}
                   </blockquote>
                 );
               return (
                 <p key={i} className="text-dark/70 leading-relaxed mb-4">
-                  {trimmed}
+                  {formatInline(trimmed)}
                 </p>
               );
             })}
