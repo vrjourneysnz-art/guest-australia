@@ -16,7 +16,7 @@ export const lifestyle7Day: RichItinerary = {
     "Enjoy the 'Sounds of Silence' as you dine under sparkling outback skies",
     "Shop until you drop in the vibrant city of Melbourne and discover its many beautiful laneways",
   ],
-  downloadLink: "https://geni.us/TempAus7Days",
+  downloadLink: "https://geni.us/TempAus10Days",
   days: [
     {
       day: 1,
