@@ -30,11 +30,19 @@ export default function TravelPlanningPage() {
             <h2 className="text-3xl font-bold text-dark mb-4">
               Expert-Led, Stress-Free Travel Planning
             </h2>
+            <p className="text-dark/60 leading-relaxed mb-4">
+              Planning a trip to the other side of the world can feel overwhelming, especially when
+              you want to make every moment count. With decades of experience, I help you cut through
+              the research fatigue to create a journey that is effortless, balanced, and perfectly
+              tailored to you.
+            </p>
+            <p className="text-dark/60 leading-relaxed mb-4">
+              For over 35 years Michael Nees lived and breathed New Zealand and Australia travel,
+              working as a tour guide and travel designer (running Guest New Zealand and Guest Australia).
+            </p>
             <p className="text-dark/60 leading-relaxed">
-              With over 30 years of hands-on experience living and travelling across Australia, Michael
-              Nees creates personalised itineraries that go beyond the typical tourist trail. Every trip
-              is custom-designed around your preferences — from luxury accommodation and unique
-              experiences to practical logistics and insider tips that only a local expert can provide.
+              My one-on-one consultation gives you personalised, expert guidance to shape an itinerary
+              that truly fits your interests, pace, and travel style.
             </p>
           </div>
 
@@ -42,7 +50,7 @@ export default function TravelPlanningPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-warm rounded-lg p-8 border border-transparent hover:border-sand/50 transition-colors">
               <h3 className="text-2xl font-bold text-dark mb-2">Standard Consultation</h3>
-              <p className="text-3xl font-bold text-terra mb-4">US$169</p>
+              <p className="text-3xl font-bold text-terra mb-4">US$199</p>
               <ul className="space-y-2 text-dark/60 text-sm mb-6">
                 {["Video Call & Tailored itinerary design", "Accommodation recommendations", "Transport and logistics guidance", "Email support throughout planning"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
