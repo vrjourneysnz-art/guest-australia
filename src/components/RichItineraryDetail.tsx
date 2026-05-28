@@ -196,12 +196,18 @@ export default function RichItineraryDetail({
             href={itinerary.downloadLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 bg-terra text-white py-4 rounded-lg font-semibold hover:bg-terra-dark transition-colors mb-12"
+            className="flex items-center justify-center gap-3 bg-terra text-white py-4 rounded-lg font-semibold hover:bg-terra-dark transition-colors mb-3"
           >
             <i className="fa-solid fa-file-pdf text-lg" />
             Download Your Free PDF Planner
             <i className="fa-solid fa-arrow-up-right-from-square text-xs" />
           </a>
+          <p className="text-center text-sm text-dark/60 mb-12">
+            Already have a draft and want it reviewed?{" "}
+            <Link href="/travel-planning" className="text-terra font-semibold hover:underline">
+              See consultation options.
+            </Link>
+          </p>
 
           {/* Highlights */}
           <div className="bg-warm rounded-lg p-8 mb-12">
