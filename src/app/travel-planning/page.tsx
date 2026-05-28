@@ -152,6 +152,21 @@ export default function TravelPlanningPage() {
           <ContactForm />
         </div>
       </section>
+
+      {/* Sample Itineraries Pointer */}
+      <section className="py-8 bg-warm">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-dark/70">
+            Not ready to book?{" "}
+            <Link
+              href="/itineraries"
+              className="text-terra font-semibold hover:text-terra-dark hover:underline"
+            >
+              Browse our free sample itineraries to get started.
+            </Link>
+          </p>
+        </div>
+      </section>
     </>
   );
 }
