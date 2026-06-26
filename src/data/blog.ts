@@ -11,6 +11,260 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "12-day-northern-australia-trip-winter-route",
+    title: "12 Day Northern Australia Trip: Whale Sharks, Crocs, Reef Snorkeling and the Best Winter Route",
+    date: "June 19, 2026",
+    excerpt: `Plan a smart 12-day northern Australia itinerary across Port Douglas, Darwin, Perth and Exmouth—timed for the winter dry season. Includes outer reef snorkeling, whale shark season and crocodiles in Kakadu.`,
+    ogImage: "/images/blog/12-day-northern-australia-trip-winter-route.jpg",
+    youtubeIds: ["m3RN9hWt-mw"],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fdry-season-planning-slide-ddd94f.webp?alt=media&token=13a3405b-ef0b-4125-8db9-28a4c20aedad",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fcairns-vs-port-douglas-comparison-f38c05.webp?alt=media&token=48948fba-3885-4c4f-83b6-3f1af56fa59e",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fouter-reef-day-plan-3e02de.webp?alt=media&token=e2cf1d00-86a1-4054-8530-b04040553af2",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fdaintree-route-map-794585.webp?alt=media&token=9d0a9189-fea3-4c71-b42d-84e9a8011622",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fdarwin-waterfront-lagoon-13a547.webp?alt=media&token=369d52d4-cc91-4c83-9fb3-c9c288d81ed4",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fkakadu-day-tour-duration-973a95.webp?alt=media&token=16484a25-ac56-46ff-bfc5-d73a41d7f947",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Flitchfield-highlights-slide-b144e8.webp?alt=media&token=8c429c2e-00c6-49e3-835f-a3b25f42565d",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fdarwin-to-perth-flight-route-83b2c0.webp?alt=media&token=e2c18eae-9c0f-4a5e-ad33-e41068c6be82",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fperth-city-day-options-2f8f1d.webp?alt=media&token=937eddad-17f4-4f26-9435-70b94c631975",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fturquoise-bay-reef-access-7eed22.webp?alt=media&token=9d5c4e68-2dd5-4625-b2e2-26c7d1c644f8",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fwhale-shark-swim-rules-9ff524.webp?alt=media&token=17db530b-963e-4427-aec4-0eecac25b3aa",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fningaloo-season-overlap-chart-25ee25.webp?alt=media&token=b892dac5-6b65-4556-9858-7e51e616e7a3",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fcape-range-coastline-f3ec04.webp?alt=media&token=acea7406-999b-4b74-aeb4-0fa8abc117d5",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Ftrip-cost-breakdown-17e1f5.webp?alt=media&token=43505f17-1c88-4804-8d16-d87f74c5b207",
+      "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/%2Fusers%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2F5NyI7uNA1aCsh6XTGKwx%2Fscreenshots%2Fbest-months-dry-season-chart-708ae9.webp?alt=media&token=641bd4bb-47d6-4041-be9b-9187a4650d68"
+    ],
+    content: `A **12 day northern australia trip** can sound wildly ambitious at first. Whale sharks in Western Australia, reef snorkeling near Port Douglas, and saltwater crocodiles in Kakadu do not exactly sit next door to each other.
+
+But here is the good news. If you travel in the right season and follow a smart route, this is absolutely doable. Not only doable, but one of the most memorable Australia itineraries you can put together.
+
+This plan links **four regions in 12 days**: Port Douglas, Darwin, Perth, and Exmouth. The secret is timing. Northern Australia works best in winter, not summer. Get that one decision right and the rest of the trip starts to fall into place.
+
+If you want a practical version you can save and compare with flights and hotels, there is also a [downloadable 12 day itinerary](https://geni.us/Temp12DaysAus) and an [online travel planner](https://geni.us/AccTravelPlanner) that can help organize the route.
+
+## Why winter is the only sensible time for this route
+
+The first rule of planning a **12 day northern australia trip** is understanding that the top half of Australia runs on a different rhythm.
+
+Many travelers assume Australia equals summer holidays, beaches, and blazing December sunshine. That logic falls apart in the north. From roughly November to April, the wet season takes over. Roads flood, humidity becomes brutal, marine stingers are a problem in the water, and parts of Kakadu can shut down for months.
+
+From May to September, conditions swing the other way. Days are warm, nights are comfortable, humidity drops, and access improves right across the route. Kakadu reopens, Great Barrier Reef visibility improves dramatically, and Ningaloo enters whale shark season.
+
+If you can choose only one planning principle, choose this one.
+
+- **Best overall months:** July and August
+- **Excellent shoulder season:** May and June
+- **Still workable:** into mid October, though Kakadu starts tapering off later
+
+For this particular **12 day northern australia trip**, winter is not a nice bonus. It is the whole reason the itinerary works.
+
+## Days 1 to 3: Start in Cairns, but stay in Port Douglas
+
+You begin by flying into Cairns. That part is straightforward, with domestic connections and some international links making it one of the easiest gateways into tropical north Queensland.
+
+The mistake many people make is stopping there.
+
+For this route, Port Douglas is the smarter base. It is about an hour north of Cairns Airport, but the payoff is worth it. Port Douglas feels more like a beach village than a regional city, it places you closer to the outer reef departure point, and it gives you much easier access to the Daintree area.
+
+In simple terms:
+
+- **Cairns** is the larger city
+- **Port Douglas** is the more strategic and more relaxing base for this itinerary
+- Reef marina access is better
+- The Daintree is much closer
+- Hotels can be competitively priced
+
+So for a **12 day northern australia trip**, the better move is to transfer straight from Cairns Airport to Port Douglas and spend three nights there.
+
+### Day 1: Arrive and keep it easy
+
+Your first day should be gentle. This trip gets big quickly, so there is no prize for going flat out from the airport.
+
+Check in, stretch your legs along Four Mile Beach, wander into town for dinner, and get an early night. If your flight lands around midday and you still have energy, the [Wildlife Habitat in Port Douglas](https://geni.us/WildlifeHabitatPD) is a nice optional stop, especially for families and anyone keen to see native animals up close.
+
+### Day 2: Outer Great Barrier Reef day
+
+This is one of the anchor experiences of the whole itinerary.
+
+Take an early pickup from your hotel and head out to the outer reef. Smaller operators are usually the better call here, with more personal service and a less crowded feel. The recommendation is to look at operators such as [Sailaway and similar outer reef trips](https://geni.us/OuterReefSailSnorkel) from Port Douglas.
+
+This is where winter really earns its keep. Water visibility can be far stronger in the dry season than in summer, which makes the snorkeling experience much better. If reef clarity matters to you, this is one of the strongest arguments for doing a **12 day northern australia trip** in winter.
+
+### Day 3: Daintree Rainforest and crocodile country
+
+Another early start, and another complete change of scenery.
+
+Head north into the Daintree, one of the oldest rainforests on Earth. A guided day tour is the easiest way to combine the rainforest itself with river cruising and Cape Tribulation. A commonly recommended option is [Billy Tea Daintree Tours](https://geni.us/BillyTeaDaintree).
+
+The day usually combines several elements:
+
+- Rainforest scenery and interpretation
+- Access toward Cape Tribulation
+- A crocodile cruise on the Daintree River
+
+If you have extra time beyond this 12-day framework, the Atherton Tablelands or Chillagoe Caves can be added later. But within a tight **12 day northern australia trip**, the Daintree is the cleanest fit.
+
+## Days 4 to 6: Darwin and the Top End
+
+On day 4, fly from Cairns to Darwin. It is roughly a three hour flight and it feels like entering a different slice of Australia again.
+
+In the dry season, Darwin is warm, blue-skied, and much more comfortable than many first-timers expect. Think hot days, lower humidity, and a city that is easy to enjoy for a couple of nights.
+
+### Day 4: Settle into Darwin
+
+Drop your bags and head to the waterfront precinct. One key practical point in Darwin is swimming safety. The lagoon at the waterfront is one of the few places where you can enjoy the water without the concerns that exist elsewhere in the Top End.
+
+If your timing works and you are there on a Thursday or Sunday, the Mindil Beach Sunset Market is worth prioritizing. During the dry season it becomes one of the city's best social spaces, with food stalls, music, and that classic tropical sunset atmosphere.
+
+### Day 5: Kakadu National Park day trip
+
+This is the longest day of the whole itinerary, so go in prepared.
+
+A Kakadu day trip from Darwin usually starts early and runs around 12 to 13 hours. It is a big outing, but it gives you access to one of Australia's most significant landscapes without needing to self drive or stay overnight.
+
+Highlights include:
+
+- Ancient Aboriginal rock art sites
+- Wetland scenery
+- The famous Yellow Water cruise
+- Saltwater crocodile spotting
+
+The crocodiles here are serious animals, with large adults reaching well beyond the size most people imagine. This is not theme park wildlife. It is raw Top End country.
+
+And just as important, Kakadu is one more reason season matters. In the wet, access can be heavily restricted. In the dry, the park opens up and actually works as part of a compact **12 day northern australia trip**.
+
+### Day 6: Litchfield National Park
+
+After Kakadu's scale and intensity, Litchfield gives you a different kind of Top End day.
+
+This is the waterfall and swimming-hole day. Florence Falls and Wangi Falls are among the best-known stops, and the big appeal is that these swimming areas are monitored and checked during the dry season. That makes this one of the rare days on the route where getting in the water is the main event rather than a bonus.
+
+For accommodation, staying central in Darwin is the practical move. Walkability helps on a short itinerary. If you want ideas, the video notes properties such as the Hilton Darwin for a full-service stay, while serviced apartments can suit anyone who wants more space.
+
+## Days 7 to 8: Perth as the reset point
+
+Day 7 is your longest internal transfer. You fly from Darwin to Perth, roughly four hours and around 2,700 kilometers. It is a big jump, but it is the bridge that connects the Top End to Ningaloo.
+
+Perth plays an important role in a **12 day northern australia trip**. It is not just a stopover. It is the breather before Exmouth.
+
+In winter, Perth is mild, sunny, and easygoing. That makes it a good place to recover from the pace of the first half of the itinerary.
+
+### Day 8: City day or Rottnest option
+
+If you stay in Perth for the day, keep it simple:
+
+- **Kings Park** for one of the world's great urban park settings and Indigenous heritage experiences
+- **Fremantle** for markets, historic streets, and craft beer culture
+- **Perth Mint** if you want a classic city attraction
+
+There is also a good café and deli option in the Re Store if food is part of your travel planning style.
+
+If city time is not your thing, the better alternative is a day trip to Rottnest Island. Ferries run from the Perth area, and it is a strong choice for anyone who wants more coast and less concrete before the final wildlife-heavy leg.
+
+For a more detailed breakdown, there is a related [Perth guide](https://geni.us/YTPerth) available.
+
+## Days 9 to 11: Exmouth and Ningaloo, the part that justifies the whole trip
+
+Now the trip gets serious.
+
+On day 9, fly from Perth to Learmonth Airport for Exmouth. The flight is about two hours, and from here you enter one of the most underrated coastal regions in Australia.
+
+Ningaloo is the world's largest fringing reef, stretching around 260 kilometers. That detail surprises many people because the Great Barrier Reef gets all the global attention. But Ningaloo has something the Great Barrier Reef often does not: simple access.
+
+At Turquoise Bay, you can literally walk off the beach and be over the reef. No boat required. No complicated logistics. Just beach, reef, and remarkable marine life.
+
+This is also where the wildlife credentials go through the roof. Ningaloo is known for a marine lineup that includes:
+
+- Whale sharks
+- Humpback whales
+- Manta rays
+- Green sea turtles
+- Dugongs
+
+That combination is what makes Exmouth the headline act of this **12 day northern australia trip**.
+
+### Day 10: Whale shark swim day
+
+This is the experience many people will remember long after every airport, transfer, and hotel check-in has faded.
+
+The whale shark swim is a full day on the water. Local operators use spotter planes to locate the animals from the air. Once one is found, the captain positions the boat and small groups enter the water with guides.
+
+There are strict rules, and that is a good thing:
+
+- Usually a maximum of 10 people in the water at once
+- A minimum distance of about 3 metres
+- Guided entries for safety and marine protection
+
+The sensation is hard to overstate. You are in open water beside a fish that can reach around 10 metres, and it moves through the ocean with complete indifference to your presence. It is calm, enormous, and unforgettable.
+
+Recommended operators mentioned for this experience include Live Ningaloo, Three Islands Whale Shark Dive, and Ocean Eco Adventures.
+
+### Why late July is such a special window
+
+Whale shark season generally runs from March to August, though in recent years sightings have stretched later. Then, from July onward, humpback whales begin arriving.
+
+That creates a short overlap in late July where both species can be experienced on back-to-back days. It is a narrow window, but if your dates line up, it may be one of the best wildlife timing plays in the country.
+
+One practical warning here: **book the whale shark swim early**. Peak departures can sell out months ahead. This is the most time-sensitive booking on the entire **12 day northern australia trip**.
+
+### Day 11: Cape Range National Park or another water day
+
+Your final full day gives you two strong choices.
+
+Option one is Cape Range National Park, paired with local touring such as Yardie Creek and chances to spot black-footed rock wallabies.
+
+Option two, if you are there during the right months, is to spend another day on the water for humpback whales.
+
+Either way, Exmouth finishes the itinerary on a high note.
+
+## What a 12 day northern australia trip costs
+
+Let us be honest. This is not a budget route.
+
+With mid-range accommodation, internal flights, and tours included, the expected range is about **AUD 6,000 to AUD 9,000 per person**.
+
+The main cost drivers are:
+
+- **Four internal flights:** roughly AUD 800 to AUD 1,200 total, depending on booking timing and fares
+- **Whale shark swim:** around AUD 500 for the full day experience
+- **Day tours:** Kakadu, Litchfield, reef, and Daintree all add up quickly
+
+The earlier you book, the better your chances of keeping flight costs sensible. If you still need basics for the route, tools for flight booking, accommodation, [travel insurance](https://geni.us/TravelInsurance), and a [travel eSIM](https://geni.us/SailySim) can help round out the practical side.
+
+## The best month-by-month timing summary
+
+If you want the shortest answer possible for this **12 day northern australia trip**, here it is:
+
+- **July and August:** best overall combination across all regions
+- **May and June:** excellent, slightly softer timing
+- **Up to mid October:** still good, but not as consistently strong for everything
+
+The dry season is the backbone. It improves reef conditions, opens Kakadu properly, keeps Darwin manageable, and aligns with Ningaloo wildlife opportunities.
+
+## Final 12-day route at a glance
+
+Here is the clean version of the route:
+
+- **Day 1:** Arrive Cairns, transfer to Port Douglas
+- **Day 2:** Outer Great Barrier Reef
+- **Day 3:** Daintree Rainforest and crocodile cruise
+- **Day 4:** Fly to Darwin, waterfront and optional Mindil market
+- **Day 5:** Kakadu day trip and Yellow Water cruise
+- **Day 6:** Litchfield National Park
+- **Day 7:** Fly Darwin to Perth
+- **Day 8:** Perth city day or Rottnest Island
+- **Day 9:** Fly Perth to Exmouth
+- **Day 10:** Whale shark swim
+- **Day 11:** Cape Range National Park or humpback whale day
+- **Day 12:** Departure from Perth after returning from Exmouth
+
+A **12 day northern australia trip** like this is fast, no question. But it is also one of those rare itineraries that strings together experiences most people usually treat as separate holidays.
+
+Reef snorkeling. Ancient rainforest. Kakadu wetlands. Crocodiles. Perth sunshine. Ningaloo whale sharks.
+
+Do it in winter, book the key flights and wildlife days early, and this route has every chance of becoming one of the best trips you ever take.`
+  },
+  {
     slug: "best-time-to-visit-australia-2-week-winter-itinerary",
     title: "Best Time to Visit Australia: A 2 Week Winter Itinerary That Actually Works",
     date: "May 24, 2026",
