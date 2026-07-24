@@ -13,7 +13,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "things-to-do-in-darwin-australia-top-end-guide",
     title: "Things to Do in Darwin Australia: The Complete Top End Planning Guide",
-    date: "May 31, 2026",
+    date: "July 25, 2026",
     excerpt: `Plan the perfect Darwin and Top End trip — the right season, how many nights to allow, city highlights, and how to choose between the Kimberley by 4WD or expedition cruise.`,
     ogImage:
       "https://firebasestorage.googleapis.com/v0/b/videotoblog-35c6e.appspot.com/o/users%2FeOEYLUFRF5h35YbE6ZtvRlsIbMk1%2Fblogs%2FKXmrMAaSt88YT79GTHEy%2Fscreenshots%2Ffcf1ffb2-c6f7-4f0a-abd9-c512e24cf4db.webp?alt=media&token=c972b835-31c7-4b52-8d31-e76a284e3cfb",
