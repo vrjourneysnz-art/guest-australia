@@ -11,6 +11,176 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "tasmania-road-trip-planning-mistakes",
+    title: "Tasmania Road Trip: How to Avoid the 6 Biggest Planning Traps",
+    date: "September 19, 2026",
+    excerpt: `Plan a Tasmania road trip that actually works — ferry versus flying, how many days you need, which way to drive the loop, the dusk rule, two nights at Cradle Mountain and why to book the west coast first.`,
+    ogImage: "https://img.youtube.com/vi/_IHQ2Hq4b2A/maxresdefault.jpg",
+    youtubeIds: ["_IHQ2Hq4b2A"],
+    images: [],
+    content: `Tasmania looks like a small island on the map. That is exactly why so many road trips go wrong.
+
+The distances appear manageable, the loop looks obvious, and five or six days can sound generous. But Tasmania is not a destination to plan by kilometres alone. The roads are slow, the weather has a mind of its own, daylight can be short, and wildlife changes what a sensible driving day looks like.
+
+After decades of planning Australia and New Zealand trips, I see the same six mistakes repeatedly. Avoid them and Tasmania becomes a brilliant, relaxed road trip rather than a race around an island.
+
+## Key Takeaways
+
+- Allow 10 days for a full Tasmania loop and 14 days for a relaxed itinerary.
+
+- Plan every driving day around daylight and arrive at accommodation before sunset.
+
+- Keep Cradle Mountain flexible with two nights and avoid scheduling it as your final day.
+
+- Book Strahan accommodation and Gordon River cruises before arranging the rest of the route.
+
+## First, Understand the Shape of a Tasmania Road Trip
+
+There are three usual arrival points. **Hobart** is in the south, **Launceston** is in the north, and **Devonport** is where the Spirit of Tasmania ferry arrives.
+
+The Midland Highway between Hobart and Launceston takes roughly two and a half to three hours. However, the more scenic eastern route through Freycinet, St Helens and the Bay of Fires is not simply a quick detour. Allow two driving days, with time between them to actually enjoy the places you have come to see.
+
+On the west lie Cradle Mountain and Strahan. In the south are Port Arthur and Bruny Island. Then there is the vast southwest wilderness, which is not somewhere to squeeze in casually at the end.
+
+This is an island of very different regions. A good itinerary respects that rather than treating Tasmania as one neat circle.
+
+## 1. Choosing the Ferry When Flying Makes More Sense
+
+The Spirit of Tasmania sounds wonderfully straightforward. Drive your car onto the ferry in Melbourne, sleep overnight, wake up in Tasmania with your own vehicle. It is certainly a memorable way to arrive, but there are hidden hours and costs that catch many people out.
+
+Firstly, the ferry does not depart from central Melbourne. It leaves from Geelong, around one hour and 15 minutes southwest of the Melbourne CBD. Then there is check-in, which opens roughly one and a half to two and a half hours before departure and closes strictly 45 minutes beforehand. The crossing itself takes around 10 to 11 hours, depending on the sailing.
+
+It is also important to price the whole journey, not just the passenger fare. You pay for the vehicle as well as every person travelling, and the vehicle component can be the larger part of the bill.
+
+### When the Ferry Is the Right Call
+
+Two questions make the decision much easier:
+
+- **Do you own the vehicle?**
+
+- **Are you staying longer than two weeks?**
+
+If you own a campervan, four wheel drive or car and are travelling for more than two weeks, the ferry can make excellent sense. You are moving an asset you already own, rather than paying to transport something only briefly.
+
+If you are flying into Melbourne and renting a vehicle on arrival, flying to Hobart is usually the efficient option. The flight is around one hour and 15 minutes in the air, and it gives you back most of a day at each end of the journey. On a 10-day Tasmania holiday, that is a substantial part of your available time.
+
+Tasmania is roughly the size of Ireland or West Virginia. For a short trip, you would not normally ship a car to Ireland. Apply the same logic here. If you need a vehicle after flying in, compare [Tasmania rental car options](https://geni.us/RentalCarsAustralia) before committing to the ferry.
+
+## 2. Booking Too Few Days for the Full Loop
+
+The second trap is assuming a small island means a fast road trip. Tasmania covers about 68,000 square kilometres, but the driving is not direct and many of the best roads are winding, scenic and slower than mapping estimates suggest.
+
+For example, Hobart to Cradle Mountain is roughly 320 kilometres. It is not a three-hour drive in practical terms. Budget around four and a half hours before stops. The road toward Strahan is among Australia's most spectacular drives, but it is also one of the slowest.
+
+Use this as the basic guide:
+
+- **10 days:** enough time to cover the full island well.
+
+- **14 days:** where the trip stops feeling rushed and becomes something rather special.
+
+- **Five or six days:** choose half the island and do it properly.
+
+For a shorter trip, fly into Hobart, focus on the south and east coast, then fly out of Launceston. Keep the west coast and Cradle Mountain for a second visit. A half-island trip with time for walks, coastlines, meals and weather changes is far better than a full loop seen through a windscreen.
+
+### Build Your Tasmania Itinerary
+
+Create a tailored Australia or New Zealand trip plan based on your dates and interests. [Try the Travel Planner](https://geni.us/AccTravelPlanner)
+
+## 3. Driving the Tasmania Loop in the Wrong Direction
+
+A loop is not just a loop in Tasmania. Direction matters because the weather is very unevenly distributed across the island.
+
+The west coast and Central Highlands sit in the path of the Roaring Forties weather pattern. This is where you are more likely to encounter cloud, wind and rain. The east coast sits in a rain shadow and is generally much drier and sunnier.
+
+The planning principle is simple: **put the weather-sensitive west coast at the point in the trip where you still have flexibility.**
+
+### If You Arrive in Hobart
+
+Travel anticlockwise. Start with the south and east coast while finding your feet, head north through the island, then move west toward Cradle Mountain and Strahan. This leaves room to adjust if the forecast turns against you.
+
+### If You Arrive in Devonport
+
+Travel clockwise. Tackle the west first, then save the east coast as the reliable, sunnier finish to the journey.
+
+There is one golden rule here: **never make your one Cradle Mountain day the final day of the trip.** Mountain weather changes quickly. If cloud comes down on your only day, you have nowhere to move.
+
+## 4. Driving at Dusk and After Dark
+
+This is not merely a safety note. It is an itinerary rule.
+
+Locals avoid driving between dusk and dawn whenever possible because Tasmania has an exceptionally high rate of wildlife on the roads. Wallabies, possums, wombats and Tasmanian devils are active around dusk. They move onto the warm road surface and do not reliably move away from an approaching vehicle.
+
+That means your daily plan must be based on **daylight, not kilometres**.
+
+In winter, from June to August, the sun can be down by 5:00 pm. A theoretical 12-hour day is not a 12-hour driving day. Once you account for fading light, stops and a safe arrival time, it is closer to seven useful hours.
+
+So do the maths backwards:
+
+- **Step 1:** Check sunset for your actual travel date.
+
+- **Step 2:** Set your accommodation arrival time for before sunset.
+
+- **Step 3:** Subtract realistic driving time and planned stops.
+
+- **Step 4:** Use the result as your latest departure time.
+
+If the numbers do not work, the issue is not that you need to drive faster. The issue is that there is too much packed into the day. Starting a four-hour drive at 3:00 pm is simply not a good Tasmania plan.
+
+Also read the rental agreement carefully before collecting the vehicle. Animal-strike cover may not be included in the way you expect. It is far better to understand the clause before anything happens.
+
+## 5. Treating Cradle Mountain as a One-Night Stop
+
+Many itineraries assume Cradle Mountain is a quick stop: drive in, park at Dove Lake, take a photograph and continue. That is not how the experience works for much of the year.
+
+In peak season, private vehicles are kept out of the Dove Lake area and access is by shuttle from the visitor centre. You need a national park pass, and the shuttle runs to its own timetable, not yours. Similar access and pass requirements apply in other Tasmanian national parks as well.
+
+Buy the park pass online before you leave. Then get on the first shuttle of the day. The morning offers better light, quieter boardwalks and often the best chance of seeing the mountain before cloud builds.
+
+And be realistic about the mountain itself. Cradle Mountain is frequently hidden by cloud. That is normal, not bad luck. It is why the right booking is **two nights, not one**.
+
+Two nights give you a complete daylight day on the mountain, more than one opportunity for clear conditions, and no need to rush in or out near dusk. Beyond Dove Lake, there are other excellent walks from the end of the road and a useful local information centre to help shape the day.
+
+## 6. Booking the West Coast Last
+
+Strahan and Tasmania's west coast are often treated as an optional extra, to be added if there is time. That is backwards.
+
+The west coast has fewer accommodation choices, fewer operators and a tighter booking window than the rest of the island. Strahan is a small town serving a huge wilderness area, and the Gordon River cruises are a central reason to make the journey. They operate on fixed schedules and can sell out well ahead during summer.
+
+The journey to Strahan is long, slow and glorious from either direction. It is not somewhere to drive five hours for on the chance that a cruise might still have space.
+
+If the west coast belongs on your Tasmania road trip, book it first. Lock in Strahan accommodation and the Gordon River cruise, then build the rest of your itinerary around those dates. If the dates are unavailable, leave the west out and give those days to the east coast. Do not leave it floating as a vague possibility.
+
+## The One Mistake Behind All Six Tasmania Planning Traps
+
+These are not really six separate mistakes. They all come from the same assumption: planning Tasmania in kilometres rather than usable daylight hours.
+
+The ferry only looks efficient until you count the hours it consumes. Five days only looks adequate until you recognise how little time is available for slow roads, stops and safe daylight driving. Loop direction, the dusk rule, two nights at Cradle Mountain and booking the west coast first are all versions of the same correction.
+
+**Tasmania gives you fewer usable hours each day than the map suggests.**
+
+Build your trip around that truth. Allow time for weather, scenic roads and the unexpected. Arrive before sunset. Give the places that matter enough nights. Then Tasmania stops being an island to get around and becomes an island to properly experience.
+
+For a practical starting point, download the [free 14-day Tasmania itinerary](https://geni.us/Tasmania14Days) and adapt it to the time you genuinely have. For more ideas on shaping your route, see our guide on [how to plan a Tasmania travel itinerary](/australia-travel-blogs/how-to-plan-a-tasmania-travel-itinerary).
+
+## Frequently Asked Questions About Tasmania Road Trips
+
+### How many days do I need for a Tasmania road trip?
+
+Ten days is a good minimum for a full-island loop. Fourteen days allows a much more relaxed trip with flexibility for weather, walks and scenic stops. With five or six days, focus on half the island.
+
+### Should I take the Spirit of Tasmania or fly to Tasmania?
+
+The ferry is most suitable when you own a vehicle and are staying longer than two weeks. For a shorter trip using a rental car, flying to Hobart usually saves a significant amount of holiday time.
+
+### Is it safe to drive in Tasmania at night?
+
+Driving at dusk and after dark is best avoided where possible because wildlife is very active on Tasmanian roads. Plan to arrive at each overnight stop before sunset.
+
+### Do I need two nights at Cradle Mountain?
+
+Yes, two nights are strongly recommended. They provide a full daylight day for the mountain, reduce driving pressure and give you another chance if cloud hides Cradle Mountain.`,
+  },
+  {
     slug: "things-to-do-in-darwin-australia-top-end-guide",
     title: "Things to Do in Darwin Australia: The Complete Top End Planning Guide",
     date: "July 25, 2026",
